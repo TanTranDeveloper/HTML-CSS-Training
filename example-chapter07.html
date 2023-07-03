@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chapter-07</title>
+  </head>
+
+  <body>
+    <form>
+      <fieldset>
+        <legend>Your details:</legend>
+        <label for="username">Name:</label>
+        <input id="username" type="text" />
+        <br />
+        <label for="email">Email:</label>
+        <input id="email" type="email" />
+      </fieldset>
+    </form>
+
+    <form action="/">
+      <fieldset>
+        <legend>Your review:</legend>
+        <label for="pickone">Did you hear about us?</label>
+        <select id="pickone">
+          <option value="Choose one" disabled selected>Choose one</option>
+          <option value="google">Google</option>
+          <option value="facebook">Facebook</option>
+          <option value="insta">Instagram</option>
+          <option value="twitter">Twitter</option>
+        </select>
+        <p>Would you visit again?</p>
+        <input type="radio" id="yes" name="answer" />
+        <label for="yes">Yes</label>
+        <input type="radio" id="no" name="answer" />
+        <label for="no">No</label>
+        <input type="radio" id="maybe" name="answer" />
+        <label for="maybe">Maybe</label>
+
+        <p>Comment:</p>
+        <textarea name="review" id="review" cols="100" rows="5"></textarea>
+
+        <br />
+        <input type="checkbox" id="confirm" name="confirm" />
+        <label for="confirm">Sign me up for email updates</label>
+        <br />
+        <button type="submit" style="border-radius: 10px">Submit review</button>
+      </fieldset>
+    </form>
+    <!--form example / page 146-->
+
+    <form action="/">
+      <fieldset>
+        <legend>Type your password</legend>
+        <input type="password" id="passwrd" />
+      </fieldset>
+    </form>
+    <!--password input / page 153-->
+
+    <form action="/">
+      <p>Test multiple select box</p>
+      <select name="verhicle" size="3" multiple="multiple">
+        <option value="honda">Honda</option>
+        <option value="suzuki">Suzuki</option>
+        <option value="yamaha">Yamaha</option>
+        <option value="honda1">Honda1</option>
+        <option value="suzuki1">Suzuki1</option>
+        <option value="yamaha1">Yamaha1</option>
+      </select>
+    </form>
+    <!--multible select box-->
+
+  </body>
+</html>
