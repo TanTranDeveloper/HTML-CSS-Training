@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+.firstbox {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  margin-left: 100px;
+}
+
+.container {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  background-color: grey;
+  z-index: -2;
+}
+
+.box1,
+.box2,
+.box3 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(223, 39, 70);
+  color: white;
+}
+
+.box4 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(7, 243, 66);
+  color: white;
+  position: absolute;
+  left: 50px;
+  top: 250px;
+  z-index: -1;
+}

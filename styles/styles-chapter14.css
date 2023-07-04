@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+ul.poets {
+    list-style: inside url(../assets/images/plus.png);
+}
+
+.interest {
+    font-style: italic;
+}
+
+.account {
+    margin: 1em;
+}
+
+.choose {
+    margin: 1em;
+}
+
+.cityTable {
+    width: 600px;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: rgb(180, 217, 252);
+}
