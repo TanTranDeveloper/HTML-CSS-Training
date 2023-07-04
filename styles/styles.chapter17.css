@@ -10,7 +10,7 @@
   padding: 25px;
 }
 
-.top {
+.head {
   width: 100%;
   margin: auto;
   height: 100px;
@@ -37,6 +37,7 @@
   border: 1px solid black;
   margin-top: 20px;
   display: inline-block;
+  padding: 10px;
 }
 
 .side {
@@ -51,5 +52,11 @@
   width: 100%;
   height: 130px;
   margin-top: 10px;
+  border: 1px solid black;
+}
+
+.art {
+  width: 100%;
+  height: 200px;
   border: 1px solid black;
 }
