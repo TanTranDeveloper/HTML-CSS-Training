@@ -3,34 +3,33 @@
   text-shadow: 5px 2px 2px grey;
 }
 
-h1 {
+.heading-large {
   font-family: cursive;
   font-size: 3em;
   line-height: 0.7em;
 }
 
-#topTitle {
+.heading-small {
   font-family: monospace;
   font-size: 2em;
   text-transform: uppercase;
   letter-spacing: 0.3em;
 }
 
-#content {
+.content {
   font-family: sans-serif;
   font-weight: 800;
 }
 
-h4 {
+.heading-small {
   font-size: 2em;
   line-height: 0.1em;
 }
 
-main>p {
-  font-family: sans-serif;
-}
 
-h1, #topTitle, span, h4 {
+.heading-large,
+.heading-small,
+span {
   color: blue;
 }
 
@@ -39,23 +38,23 @@ h1, #topTitle, span, h4 {
   text-align: right;
 }
 
-h1::first-letter {
+.heading-large::first-letter {
   font-size: 100px;
 }
 
-#content::first-line {
+.content::first-line {
   background-color: yellow;
 }
 
-a:link {
+.link-search:link {
   color: blue;
 }
 
-a:hover {
+.link-search:hover {
   font-size: 20px;
   color: palevioletred;
 }
 
-a:active {
+.link-search:active {
   color: red;
 }
