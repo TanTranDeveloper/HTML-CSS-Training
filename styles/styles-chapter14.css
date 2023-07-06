@@ -2,25 +2,32 @@
     box-sizing: border-box;
 }
 
+.heading-large {
+    color: red;
+}
+
 ul.poets {
     list-style: inside url(../assets/images/plus.png);
 }
 
-.interest {
+.title-resis {
     font-style: italic;
 }
 
-.account {
+.accounts {
+    margin: 10px;
+}
+
+.dropdown-citys {
     margin: 1em;
 }
 
-.choose {
-    margin: 1em;
-}
-
-.cityTable {
+.table-content {
     width: 600px;
-    border-collapse: collapse;
+}
+
+.checkbox {
+    background-color: rgb(225, 225, 225);
 }
 
 th,

@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-.header {
+.heading-large {
     width: 70%;
     text-align: center;
     border-bottom: 3px solid black;
@@ -10,14 +10,14 @@
     margin: auto;
 }
 
-div>p {
+.heading-large p {
     font-family: monospace;
     text-transform: uppercase;
     font-size: 2em;
     line-height: 0%;
 }
 
-div>h1 {
+.heading-large h1 {
     font-family: monospace;
     text-transform: uppercase;
     font-weight: 600;
@@ -37,7 +37,7 @@ div>h1 {
     border-bottom: 2px solid black;
 }
 
-div.pictures {
+.pictures {
     width: 70%;
     margin: auto;
     display: flex;
@@ -45,7 +45,7 @@ div.pictures {
     margin-top: 2em;
 }
 
-div.pictures>img {
+.pictures img {
     width: calc(100%/3);
     height: 200px;
     object-fit: cover;

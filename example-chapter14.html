@@ -7,19 +7,20 @@
 </head>
 
 <body>
-	<header>
-		<h1 class="headline">Poetry Workshops</h1>
+	<header><!--heading start-->
+		<h1 class="heading-large">Poetry Workshops</h1>
 		<p>We will conducting a number of poetry workshop and symposiums throughtout the year.</p>
 		<p>Please note that the following events are free to members:</p>
-	</header>
-	<article>
+	</header><!--heading end-->
+
+	<article><!--article start-->
 		<ul class="poets">
 			<li>A Poetric Perspective</li>
 			<li>Walt Whitman at War</li>
 			<li>Found Poems and Outsider Poetry</li>
 		</ul>
 
-		<table class="cityTable">
+		<table class="table-content"><!--table-content start-->
 			<tr>
 				<th></th>
 				<th>New York</th>
@@ -50,38 +51,38 @@
 				<td>example</td>
 				<td>example</td>
 			</tr>
-		</table>
-		<form action="/" class="resister">
+		</table><!--table-content end-->
+
+		<form action="/" class="resister"><!--resister start-->
 			<fieldset>
-				<legend class="interest">Regsister your interest</legend>
-				<div class="account">
-					<label for="name">Your name:</label>
-					<input type="text" class="name">
+				<legend class="title-resis">Regsister your interest</legend>
+				<div class="accounts">
+					<label for="names">Your name:</label>
+					<input type="text" class="names" id="names">
 				</div>
-				<div class="account">
-					<label for="email">Your email:</label>
-					<input type="email" class="email">
+				<div class="accounts">
+					<label for="emails">Your email:</label>
+					<input type="email" class="emails" id="emails">
 				</div>
-				<div class="choose">
-					<label for="option">Your closest center:</label>
-					<select class="option">
+				<div class="dropdown-citys">
+					<label for="citys">Your closest center:</label>
+					<select class="citys" id="citys">
 						<option value="default" disabled selected>Choose 1</option>
 						<option value="newyork">New York</option>
 						<option value="canada">Canada</option>
 						<option value="danang">Da Nang</option>
 					</select>
 				</div>
-				<div class="choose">
+				<div class="checkbox">
 					<span>Are you a member?</span>
-					<input type="radio" name="yesno"" class=" yes">
+					<input type="radio" name="yesno" id="yes" class="answers">
 					<label for="yes">Yes</label>
-					<input type="radio" name="yesno" class="no">
+					<input type="radio" name="yesno" id="no" class="answers">
 					<label for="no">No</label>
 				</div>
 			</fieldset>
-		</form>
-
-	</article>
+		</form><!--resister end-->
+	</article><!--article end-->
 </body>
 
 </html>
