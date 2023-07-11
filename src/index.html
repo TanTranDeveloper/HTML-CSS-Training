@@ -10,27 +10,29 @@
 </head>
 
 <body>
-	<div class="wrapper">
-		<header class="header">
+	<header class="header">
+		<div class="header-wrapper">
 			<img src="./assets/images/primary-logo.png" alt="primary logo" class="primary-logo">
-			<div class="locatebar">
-				<img src="./assets/images/SVGs/locate-icon.svg" alt="locate logo" class="locate-logo">
-				<input type="text" placeholder="Location" class="locate-input">
+			<div class="input-wrapper">
+				<div class="primary-input locate">
+					<img src="./assets/images/SVGs/locate-icon.svg" alt="locate logo" class="locate-logo">
+					<input type="text" placeholder="Location" class="nav-input locate-input">
+				</div>
+				<div class="primary-input search">
+					<img src="./assets/images/SVGs/search-icon.svg" alt="search icon" class="search-icon">
+					<input type="text" placeholder="Search for Doctors, hospital & others...." class="nav-input search-input">
+				</div>
 			</div>
-			<div class="searchbar">
-				<img src="./assets/images/SVGs/search-icon.svg" alt="search icon" class="search-icon">
-				<input type="text" placeholder="Search for Doctors, hospital & orther...." class="search-input">
-			</div>
-			<nav calss="navbar">
-				<ul class="navbar-list">
-					<li class="navbar-icon"><a href="javascript:void(0)" class="navbar-content">Appoinments</a></li>
-					<li class="navbar-icon"><a href="javascript:void(0)" class="navbar-content">Consult Doctors</a></li>
-					<li class="navbar-icon"><a href="javascript:void(0)" class="navbar-content">Diagnostics</a></li>
+			<nav class="primary-nav">
+				<ul class="nav-list">
+					<li class="nav-item"><a href="javascript:void(0)" class="nav-content">Appoinments</a></li>
+					<li class="nav-item"><a href="javascript:void(0)" class="nav-content">Consult Doctors</a></li>
+					<li class="nav-item"><a href="javascript:void(0)" class="nav-content">Diagnostics</a></li>
 				</ul>
 			</nav>
 			<img src="./assets/images/SVGs/signup-icon.svg" alt="sign up logo" class="signup-logo">
-		</header>
-	</div>
+		</div>
+	</header>
 </body>
 
 </html>

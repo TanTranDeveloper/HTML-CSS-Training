@@ -1,10 +1,88 @@
+/*base css*/
 @import url(./base/reset.css);
 @import url(./base/typo.css);
 @import url(./base/variables.css);
 
 .header {
+	max-width: var(--max-width);
+	width: 100%;
+	position: relative;
+}
+
+.header-wrapper {
 	width: 100%;
 	height: 100px;
+	max-width: var(--max-width);
+	margin: 0 auto;
 	display: flex;
 	flex-shrink: 0;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.primary-logo {
+	display: flex;
+	flex-shrink: 0;
+	width: 85px;
+	height: 76px;
+	margin: 0 70px 0 70px;
+}
+
+.input-wrapper {
+	display: flex;
+	margin: 30px 43px 26px 0;
+}
+
+.primary-input {
+	border: 1px solid var(--primary-color);
+	background: #FCFCFC;
+	height: 44px;
+}
+
+.locate {
+	border-radius: 10px 0px 0px 10px;
+	width: 152px;
+	margin-right: -1px;
+	/*stacking borders*/
+}
+
+.search {
+	border-radius: 0px 10px 10px 0px;
+	width: 428px;
+}
+
+.nav-input {
+	border: none;
+	font-family: Open Sans-regular;
+	font-size: 14px;
+	line-height: 22.4px;
+	letter-spacing: 0.105px;
+	outline: none;
+}
+
+.nav-input::placeholder {
+	color: var(--disabled);
+}
+
+.locate-input {
+	width: 59px;
+	height: 23px;
+}
+
+.search-input {
+	width: 260px;
+	height: 23px;
+}
+
+.nav-list {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+}
+
+.nav-content {
+	text-decoration: none;
+	color: #545454;
+	font-family: Open Sans-regular;
+	font-size: 14px;
 }
