@@ -1,0 +1,9 @@
+@font-face {
+	font-family: Open Sans-regular;
+	src: url(../../fonts/Open_Sans/static/OpenSans-Regular.ttf)
+}
+
+@font-face {
+	font-family: Epilogue-bold;
+	src: url(../../fonts/Epilogue/static/Epilogue-Black.ttf);
+}

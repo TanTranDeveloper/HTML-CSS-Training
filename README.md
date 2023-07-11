@@ -1,10 +1,10 @@
-# html-css-training
+# PRACTICE-ONE
 ### - Thank you all for taking time visit and review my project ! -
 ## Description
 - Project **"Practice-one"**: build a basic *"Swasthu website"* design - using HTML5, CSS3, Flexbox.
     - Link design: [FIGMA](https://www.figma.com/file/fPgVhV6lef9uCoBH4YiEm7/Swasthu-website-(Community)?node-id=0%3A1&mode=dev)
     - Plan: [Doc](https://docs.google.com/document/d/1i5yfSNclPl8lYqqhsBx3LIiI4JrjbecYHukpb8H7bLI/edit)
-    - Deploy: 
+    - Deploy:
 
 ## Overview
 - Requirements
@@ -29,7 +29,7 @@
 ~~~
 git clone https://github.com/tantran-agilityio/html-css-training.git
 ~~~
-- Step 02: Switch to branch feature/practice-one 
+- Step 02: Switch to branch feature/practice-one
 ~~~
 git checkout feature/practice-one
 ~~~

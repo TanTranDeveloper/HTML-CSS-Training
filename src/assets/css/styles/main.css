@@ -1,0 +1,11 @@
+@import url(./base/reset.css);
+@import url(./base/typo.css);
+@import url(./base/variables.css);
+
+@import url(./header.css);
+
+.wrapper {
+	max-width: var(--max-width);
+	max-height: var(--max-height);
+	margin: auto;
+}

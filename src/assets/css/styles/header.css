@@ -1,0 +1,10 @@
+@import url(./base/reset.css);
+@import url(./base/typo.css);
+@import url(./base/variables.css);
+
+.header {
+	width: 100%;
+	height: 100px;
+	display: flex;
+	flex-shrink: 0;
+}
