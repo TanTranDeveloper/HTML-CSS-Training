@@ -1,6 +1,6 @@
 /*base css*/
-@import url(./base/typo.css);
-@import url(./base/variables.css);
+@import url(./typo.css);
+@import url(./variables.css);
 
 /*------------------------------------*\
   ALIGN HEAD LAYOUT
