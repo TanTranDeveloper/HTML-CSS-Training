@@ -7,3 +7,13 @@
 	font-family: Epilogue-bold;
 	src: url(../..//fonts/Epilogue-Black.ttf);
 }
+
+@font-face {
+	font-family: Open Sans-bold;
+	src: url(../../fonts/OpenSans-Bold-700.ttf);
+}
+
+@font-face {
+	font-family: Montserrat-regular;
+	src: url(../../fonts/Montserrat-Regular-400.ttf);
+}
