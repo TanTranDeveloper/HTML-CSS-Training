@@ -8,16 +8,16 @@
 
 ## Overview
 - Requirements
-    1. Work fine on Chrome browser latest version
-    2. Use the right HTML tags
-    3. Apply Flexbox
-    4. Emmet with VSC
-    5. Apply CSS Guideline
-    6. Use validate tools
+    - Work fine on Chrome browser latest version
+    - Use the right HTML tags
+    - Apply Flexbox
+    - Emmet with VSC
+    - Apply CSS Guideline
+    - Use validate tools
 - Targets
-    1. Understand HTML/CSS properties and use them correctly
-    2. Slice from Figma to HTML/CSS
-    3. Understand the concepts of Flex
+    - Understand HTML/CSS properties and use them correctly
+    - Slice from Figma to HTML/CSS
+    - Understand the concepts of Flex
 
 ## Environments
 1. Visual Studio Code
@@ -25,19 +25,19 @@
 3. Npm -- v9.5.1
 
 ## Getting started
-- Step 01: Clone repository with HTTPS in Terminal
+- **Step 01: Clone repository with HTTPS in Terminal**
 ~~~
 git clone https://github.com/tantran-agilityio/html-css-training.git
 ~~~
-- Step 02: Switch to branch feature/practice-one
+- **Step 02: Switch to branch feature/practice-one**
 ~~~
 git checkout feature/practice-one
 ~~~
-- Step 03: Install npm packages
+- **Step 03: Install npm packages**
 ~~~
 npm install
 ~~~
-- Step 04: Run
+- **Step 04: Run**
 ~~~
 npm start
 ~~~
