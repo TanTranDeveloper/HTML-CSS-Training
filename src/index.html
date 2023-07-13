@@ -10,66 +10,8 @@
 </head>
 
 <body>
-	<header class="header-container">
-		<div class="header-wrapper">
-			<a href="#" class="icon-wrapper"><img src="./assets/images/primary-logo.png" alt="logo" class="primary-icon"></a>
-			<form class="input-wrapper">
-				<div class="form-input locate-box">
-					<img src="./assets/images/SVGs/locate-icon.svg" alt="locate icon" class="locate-icon">
-					<input type="text" placeholder="Location" class="input-styles locate-input">
-				</div>
-				<div class="form-input search-box">
-					<img src="./assets/images/SVGs/search-icon.svg" alt="search icon" class="search-icon">
-					<input type="text" placeholder="Search for Doctors, hospital & others...." class="input-styles search-input">
-				</div>
-			</form>
-			<nav class="primary-nav">
-				<ul class="nav-wrapper">
-					<li class="nav-item"><a href="javascript:void(0)" class="nav-content">Appoinments</a></li>
-					<li class="nav-item"><a href="javascript:void(0)" class="nav-content">Consult Doctors</a></li>
-					<li class="nav-item"><a href="javascript:void(0)" class="nav-content">Diagnostics</a></li>
-				</ul>
-			</nav>
-			<img src="./assets/images/SVGs/signup-icon.svg" alt="signup-icon" class="signup-icon">
-		</div>
-	</header>
-
-
-	<section class="profile-wrapper">
-		<img src="./assets/images/cover.png" alt="cover image" class="profile-cover">
-		<img src="./assets/images/avatar.png" alt="avatar image" class="profile-avatar">
-		<div class="profile">
-			<article class="profile-article">
-				<h2 class="profile-article-title">Dr. Yateesh Bhardwaj</h2>
-				<h3 class="profile-article-subtitle">MBBS, MD - Obstetrics & Gynaecology</h3>
-				<p class="profile-article-describe">Infertility Specialist, Gynecologist, Obstetrician, Laparoscopic Surgeon
-					(Obs & Gyn)<br />30 Years Experience Overall (29 years as specialist)
-				</p>
-				<address class="profile-article-address">Vasant Kunj, Delhi, India</address>
-				<button type="button" class="profile-article-btn">Book Online Consultation</button>
-			</article>
-			<nav class="profile-nav">
-				<ul class="profile-nav-list">
-					<li class="profile-nav-icon"><a href="javascript:void(0)" class="profile-nav-link"><img
-								src="./assets/images/SVGs/facebook-icon.svg" alt="facebook-icon" class="profile-nav-image"></a></li>
-				</ul>
-				<ul class="profile-nav-list">
-					<li class="profile-nav-icon"><a href="javascript:void(0)" class="profile-nav-link"><img
-								src="./assets/images/SVGs/linkedin-icon.svg" alt="linkedin-icon" class="profile-nav-image"></a></li>
-				</ul>
-				<ul class="profile-nav-list">
-					<li class="profile-nav-icon"><a href="javascript:void(0)" class="profile-nav-link"><img
-								src="./assets/images/SVGs/twitter-icon.svg" alt="twitter-icon" class="profile-nav-image"></a></li>
-				</ul>
-				<ul class="profile-nav-list">
-					<li class="profile-nav-icon"><a href="javascript:void(0)" class="profile-nav-link"><img
-								src="./assets/images/SVGs/instagram-icon.svg" alt="instagram-icon" class="profile-nav-image-insta"></a>
-					</li>
-				</ul>
-			</nav>
-		</div>
-	</section>
-
+	<include src="sections/header.html"></include>
+	<include src="sections/profile.html"></include>
 </body>
 
 </html>
