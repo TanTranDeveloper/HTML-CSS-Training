@@ -1,0 +1,33 @@
+.info {
+	width: var(--max-width);
+	height: 747px;
+	margin: 0 auto;
+	padding: 247px 158px 140px 119px;
+	display: flex;
+	position: relative;
+	gap: 27px;
+}
+
+.info-image {
+	width: 490px;
+	height: 360px;
+}
+
+.info-title {
+	color: var(--primary-color);
+	font-family: Epilogue-SemiBold;
+	font-size: 28px;
+	text-transform: capitalize;
+	position: absolute;
+	top: 246px;
+	left: 636px;
+}
+
+.info-content {
+	color: #555;
+	font-family: Open Sans-regular;
+	font-size: 16px;
+	line-height: 33px;
+	text-transform: capitalize;
+	margin: 40px 0 0 0;
+}
