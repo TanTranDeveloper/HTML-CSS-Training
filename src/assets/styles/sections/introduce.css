@@ -1,0 +1,184 @@
+.wrapper {
+	width: 100%;
+	height: 692px;
+	background: var(--light-blue-color);
+}
+
+.intro {
+	width: var(--max-width);
+	height: 100%;
+	margin: 0 auto;
+	flex-direction: column;
+	position: relative;
+}
+
+/*------------------------------------*\
+  BULD MAIN-CONTENT
+\*------------------------------------*/
+
+.intro-title {
+	color: var(--primary-color);
+	font-family: Epilogue-bold;
+	font-size: 36px;
+	letter-spacing: 2px;
+	text-transform: capitalize;
+	padding: 100px 0 0 104px;
+}
+
+.intro-content {
+	width: 646px;
+	height: 309px;
+	margin: 39px 0 0 104px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.intro-content-item {
+	color: #555;
+	font-family: Open Sans-regular;
+	font-size: 16px;
+	line-height: 33px;
+	text-transform: capitalize;
+}
+
+/*------------------------------------*\
+  BULD ASIDE-CONTENT
+\*------------------------------------*/
+
+.intro-aside {
+	width: 449px;
+	height: 431px;
+	border-radius: 20px;
+	background-color: var(--primary-color);
+	color: #fff;
+	position: absolute;
+	top: 88px;
+	right: 97px;
+}
+
+.aside-title {
+	width: 323px;
+	text-align: center;
+	margin: auto;
+	padding: 36px 0 15px 0;
+	font-family: Epilogue-bold;
+	font-size: 28px;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	border-bottom: 1px solid #fff;
+}
+
+.aside-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 38px 36px 0 30px;
+}
+
+.aside-content-list {
+	display: flex;
+	flex-direction: column;
+}
+
+.content-list-date {
+	font-family: Epilogue-SemiBold;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	text-transform: capitalize;
+	gap: 34px;
+}
+
+.content-list-time {
+	font-family: Epilogue-SemiBold;
+	font-size: 18px;
+	text-transform: capitalize;
+	gap: 39px;
+	margin: 4px 0 0 0;
+}
+
+.aside-content-note {
+	font-family: Epilogue-Regular;
+	font-size: 14px;
+	text-transform: capitalize;
+	margin: 22px 0 32px 30px;
+}
+
+.aside-contact {
+	width: 323px;
+	margin: 0 auto;
+	padding: 17px;
+	font-family: Epilogue-bold;
+	text-transform: capitalize;
+	border-top: 1px solid #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 16px;
+}
+
+.aside-contact-title {
+	font-size: 20px;
+}
+
+.aside-contact-number {
+	font-size: 24px;
+	transition: 0.2s;
+}
+
+.aside-contact-number:link {
+	text-decoration: none;
+	color: #fff;
+}
+
+.aside-contact-number:hover {
+	transform: scale(1.1);
+	color: orange;
+	text-shadow: 4px 0 4px #000, -4px 0 4px #000, 0 4px 4px #000, 0 -4px 4px #000,
+		3px 3px 3px #000, -3px -3px 3px #000, 3px -3px 3px #000, -3px 3px 3px #000;
+}
+
+.aside-contact-number:active {
+	transform: scale(1);
+	color: #fff;
+	text-shadow: none;
+}
+
+/*------------------------------------*\
+  BULD GALLERY
+\*------------------------------------*/
+
+.intro-gallery {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 104px auto;
+	gap: 45px;
+}
+
+.intro-gallery-list {
+	display: flex;
+	gap: 32px;
+}
+
+.intro-gallery-image {
+	width: 274px;
+	height: 206px;
+	transition: 0.2s;
+}
+
+.intro-gallery-image:hover {
+	transform: scale(1.1);
+}
+
+.intro-gallery-btn {
+	width: 24px;
+	height: 40px;
+	transition: 0.2s;
+}
+
+.intro-gallery-btn:active {
+	transform: scale(0.7);
+}
