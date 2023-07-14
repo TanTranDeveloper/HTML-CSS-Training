@@ -17,3 +17,13 @@
 	font-family: Montserrat-regular;
 	src: url(../../fonts/Montserrat-Regular-400.ttf);
 }
+
+@font-face {
+	font-family: Epilogue-SemiBold;
+	src: url(../../fonts/Epilogue-SemiBold-600.ttf);
+}
+
+@font-face {
+	font-family: Epilogue-Regular;
+	src: url(../../fonts/Epilogue-Regular-400.ttf);
+}
