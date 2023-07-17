@@ -1,7 +1,7 @@
-/*base css*/
-@import url(./base/reset.css);
-@import url(./base/typo.css);
-@import url(./base/variables.css);
+/*base styles*/
+@import url(./bases/reset.css);
+@import url(./bases/typos.css);
+@import url(./bases/variables.css);
 /*sections's styles*/
 @import url(./sections/header.css);
 @import url(./sections/profile.css);

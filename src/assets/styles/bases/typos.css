@@ -1,0 +1,49 @@
+@font-face {
+	font-family: Open Sans-Bold;
+	src: url(../../fonts/OpenSans-Bold-700.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: Open Sans-Regular;
+	src: url(../../fonts/OpenSans-Regular-400.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: Epilogue-Bold;
+	src: url(../../fonts/Epilogue-Black-900.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: Epilogue-SemiBold;
+	src: url(../../fonts/Epilogue-SemiBold-600.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: Epilogue-Regular;
+	src: url(../../fonts/Epilogue-Regular-400.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: Montserrat-Regular;
+	src: url(../../fonts/Montserrat-Regular-400.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: Roboto-Bold;
+	src: url(../../fonts/Roboto-Bold-700.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: Roboto-Regular;
+	src: url(../../fonts/Roboto-Regular-400.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: Roboto-Light;
+	src: url(../../fonts/Roboto-Light-300.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: FjallaOne-Regular;
+	src: url(../../fonts/FjallaOne-Regular-400.ttf) format("truetype");
+}

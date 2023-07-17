@@ -1,7 +1,6 @@
 .header {
 	width: var(--max-width);
 	height: 100px;
-	max-width: var(--max-width);
 	margin: 0 auto;
 	display: flex;
 	align-items: center;
@@ -71,7 +70,7 @@
 
 .formLookup-input-content {
 	border: none;
-	font-family: Open Sans-regular;
+	font-family: Open Sans-Regular;
 	font-size: 14px;
 	line-height: 22px;
 	outline: none;
@@ -97,7 +96,7 @@
 .navPrimary-list-content {
 	text-decoration: none;
 	color: #545454;
-	font-family: Open Sans-regular;
+	font-family: Open Sans-Regular;
 	font-size: 14px;
 	font-style: normal;
 	line-height: normal;

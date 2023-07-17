@@ -18,7 +18,7 @@
 
 .intro-title {
 	color: var(--primary-color);
-	font-family: Epilogue-bold;
+	font-family: Epilogue-Bold;
 	font-size: 36px;
 	letter-spacing: 2px;
 	text-transform: capitalize;
@@ -36,7 +36,7 @@
 
 .intro-content-item {
 	color: #555;
-	font-family: Open Sans-regular;
+	font-family: Open Sans-Regular;
 	font-size: 16px;
 	line-height: 33px;
 	text-transform: capitalize;
@@ -62,7 +62,7 @@
 	text-align: center;
 	margin: auto;
 	padding: 36px 0 15px 0;
-	font-family: Epilogue-bold;
+	font-family: Epilogue-Bold;
 	font-size: 28px;
 	letter-spacing: 1px;
 	text-transform: capitalize;
@@ -110,7 +110,7 @@
 	width: 323px;
 	margin: 0 auto;
 	padding: 17px;
-	font-family: Epilogue-bold;
+	font-family: Epilogue-Bold;
 	text-transform: capitalize;
 	border-top: 1px solid #fff;
 	display: flex;

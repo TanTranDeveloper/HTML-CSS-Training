@@ -34,7 +34,7 @@
 
 .sectionProfile-title {
 	color: #000;
-	font-family: Open Sans-bold;
+	font-family: Open Sans-Bold;
 	font-size: 28px;
 	text-transform: capitalize;
 	margin: 17px 0 0 441px;
@@ -42,7 +42,7 @@
 
 .profileInfo-article-title {
 	color: #555;
-	font-family: Montserrat-regular;
+	font-family: Montserrat-Regular;
 	font-size: 20px;
 	text-transform: capitalize;
 	margin: 12px 0 0 0;
@@ -50,7 +50,7 @@
 
 .profileInfo-article-describe {
 	color: #555;
-	font-family: Montserrat-regular;
+	font-family: Montserrat-Regular;
 	font-size: 16px;
 	line-height: 23px;
 	text-transform: capitalize;
@@ -59,7 +59,7 @@
 
 .profileInfo-article-address {
 	color: #555;
-	font-family: Montserrat-regular;
+	font-family: Montserrat-Regular;
 	font-size: 15px;
 	line-height: 23px;
 	text-transform: capitalize;
@@ -73,7 +73,7 @@
 	border: none;
 	background-color: var(--primary-color);
 	color: #FFF;
-	font-family: Open Sans-bold;
+	font-family: Open Sans-Bold;
 	font-size: 13px;
 	margin: 23px 0 0 0;
 	cursor: pointer;
