@@ -1,28 +1,28 @@
 {
-	"name": "html-css-training",
-	"version": "1.0.0",
-	"description": "- Project **\"Practice-one\"**: build a basic *\"Swasthu website\"* design - using HTML5, CSS3, Flexbox.\r     - Link design: [FIGMA](https://www.figma.com/file/fPgVhV6lef9uCoBH4YiEm7/Swasthu-website-(Community)?node-id=0%3A1&mode=dev)\r     - Plan: [Doc](https://docs.google.com/document/d/1i5yfSNclPl8lYqqhsBx3LIiI4JrjbecYHukpb8H7bLI/edit)\r     - Deploy:",
-	"main": "index.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"dev": "parcel src/index.html",
-		"build": "parcel build src/index.html",
-		"start": "parcel src/index.html"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/tantran-agilityio/html-css-training.git"
-	},
-	"author": "TanTran",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/tantran-agilityio/html-css-training/issues"
-	},
-	"homepage": "https://github.com/tantran-agilityio/html-css-training#readme",
-	"devDependencies": {
-		"parcel": "^2.9.3",
-		"posthtml": "^0.16.6",
-		"posthtml-doctype": "^1.1.1",
-		"posthtml-include": "^1.7.4"
-	}
+  "name": "html-css-training",
+  "version": "1.0.0",
+  "description": "- Project **\"Practice-one\"**: build a basic *\"Swasthu website\"* design - using HTML5, CSS3, Flexbox.     - Link design: [FIGMA](https://www.figma.com/file/fPgVhV6lef9uCoBH4YiEm7/Swasthu-website-(Community)?node-id=0%3A1&mode=dev)     - Plan: [Doc](https://docs.google.com/document/d/1i5yfSNclPl8lYqqhsBx3LIiI4JrjbecYHukpb8H7bLI/edit)     - Deploy:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "start": "parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tantran-agilityio/html-css-training.git"
+  },
+  "author": "TanTran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tantran-agilityio/html-css-training/issues"
+  },
+  "homepage": "https://github.com/tantran-agilityio/html-css-training#readme",
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "posthtml": "^0.16.6",
+    "posthtml-doctype": "^1.1.1",
+    "posthtml-include": "^1.7.4"
+  }
 }
