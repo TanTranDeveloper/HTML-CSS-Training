@@ -1,22 +1,17 @@
-.wrapper {
-	width: 100%;
+.introduce {
+	width: var(--max-width);
 	height: 692px;
 	background: var(--light-blue-color);
-}
-
-.intro {
-	width: var(--max-width);
-	height: 100%;
 	margin: 0 auto;
 	flex-direction: column;
 	position: relative;
 }
 
 /*------------------------------------*\
-  BULD MAIN-CONTENT
+  .INTRODUCE-CONTENT
 \*------------------------------------*/
 
-.intro-title {
+.introduce-title {
 	color: var(--primary-color);
 	font-family: Epilogue-Bold;
 	font-size: 36px;
@@ -25,8 +20,8 @@
 	padding: 100px 0 0 104px;
 }
 
-.intro-content {
-	width: 646px;
+.introduce-content {
+	max-width: 646px;
 	height: 309px;
 	margin: 39px 0 0 104px;
 	display: flex;
@@ -34,7 +29,7 @@
 	justify-content: space-between;
 }
 
-.intro-content-item {
+.introduce-content-item {
 	color: #555;
 	font-family: Open Sans-Regular;
 	font-size: 16px;
@@ -43,12 +38,12 @@
 }
 
 /*------------------------------------*\
-  BULD ASIDE-CONTENT
+  .ASIDE-CONTENT
 \*------------------------------------*/
 
-.intro-aside {
-	width: 449px;
-	height: 431px;
+.introduce-aside {
+	max-width: 449px;
+	max-height: 431px;
 	border-radius: 20px;
 	background-color: var(--primary-color);
 	color: #fff;
@@ -57,8 +52,8 @@
 	right: 97px;
 }
 
-.aside-title {
-	width: 323px;
+.introduce-aside-title {
+	max-width: 323px;
 	text-align: center;
 	margin: auto;
 	padding: 36px 0 15px 0;
@@ -69,45 +64,36 @@
 	border-bottom: 1px solid #fff;
 }
 
-.aside-content {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	margin: 38px 36px 0 30px;
+.introduce-aside-content {
+	margin: 4px 36px -34px 30px;
+	min-width: 383px;
+	border-collapse: separate;
+	border-spacing: 0 34px;
 }
 
-.aside-content-list {
-	display: flex;
-	flex-direction: column;
-}
-
-.content-list-date {
+.introduce-aside-date {
 	font-family: Epilogue-SemiBold;
 	font-size: 24px;
-	font-style: normal;
-	font-weight: 600;
-	line-height: normal;
 	text-transform: capitalize;
-	gap: 34px;
+
 }
 
-.content-list-time {
+.introduce-aside-time {
+	text-align: right;
 	font-family: Epilogue-SemiBold;
 	font-size: 18px;
 	text-transform: capitalize;
-	gap: 39px;
-	margin: 4px 0 0 0;
 }
 
-.aside-content-note {
+.introduce-aside-note {
 	font-family: Epilogue-Regular;
 	font-size: 14px;
 	text-transform: capitalize;
 	margin: 22px 0 32px 30px;
 }
 
-.aside-contact {
-	width: 323px;
+.introduce-aside-contact {
+	max-width: 323px;
 	margin: 0 auto;
 	padding: 17px;
 	font-family: Epilogue-Bold;
@@ -119,66 +105,91 @@
 	gap: 16px;
 }
 
-.aside-contact-title {
+.introduce-contact-title {
 	font-size: 20px;
 }
 
-.aside-contact-number {
+.introduce-contact-number {
 	font-size: 24px;
 	transition: 0.2s;
 }
 
-.aside-contact-number:link {
+.introduce-contact-number:link {
 	text-decoration: none;
 	color: #fff;
 }
 
-.aside-contact-number:hover {
+.introduce-contact-number:hover {
 	transform: scale(1.1);
 	color: orange;
 	text-shadow: 4px 0 4px #000, -4px 0 4px #000, 0 4px 4px #000, 0 -4px 4px #000,
 		3px 3px 3px #000, -3px -3px 3px #000, 3px -3px 3px #000, -3px 3px 3px #000;
 }
 
-.aside-contact-number:active {
+.introduce-contact-number:active {
 	transform: scale(1);
 	color: #fff;
 	text-shadow: none;
 }
 
 /*------------------------------------*\
-  BULD GALLERY
+  .INTRODUCE-GALLERY
 \*------------------------------------*/
 
-.intro-gallery {
+.gallery-btn {
+	position: absolute;
+	bottom: -23px;
+	background: none;
+	border: none;
+	padding: 0;
+	transition: 0.2s;
+}
+
+.gallery-btn:hover {
+	transform: scale(1.3);
+}
+
+.gallery-btn:active {
+	transform: scale(0.7);
+}
+
+.gallery-btn-left {
+	left: 55px;
+}
+
+.gallery-btn-right {
+	right: 55px;
+}
+
+.gallery-btn-image {
+	width: 24px;
+	height: 40px;
+}
+
+.introduce-gallery {
+	max-width: var(--max-width);
 	display: flex;
-	align-items: center;
 	justify-content: center;
 	margin: 104px auto;
 	gap: 45px;
 }
 
-.intro-gallery-list {
-	display: flex;
-	gap: 32px;
-}
-
-.intro-gallery-image {
+.introduce-gallery-image {
 	width: 274px;
 	height: 206px;
 	transition: 0.2s;
 }
 
-.intro-gallery-image:hover {
+.introduce-gallery-image:hover {
 	transform: scale(1.1);
 }
 
-.intro-gallery-btn {
+.introduce-gallery-btn {
 	width: 24px;
 	height: 40px;
 	transition: 0.2s;
 }
 
-.intro-gallery-btn:active {
+.introduce-gallery-btn:active {
 	transform: scale(0.7);
 }
