@@ -4,6 +4,11 @@
 }
 
 @font-face {
+	font-family: Open Sans-SemiBold;
+	src: url(../../fonts/OpenSans-SemiBold-600.ttf) format("truetype");
+}
+
+@font-face {
 	font-family: Open Sans-Regular;
 	src: url(../../fonts/OpenSans-Regular-400.ttf) format("truetype");
 }
