@@ -7,7 +7,7 @@
 	justify-content: flex-start;
 }
 
-.logoIcon {
+.header-logo{
 	width: 85px;
 	height: 76px;
 	margin: 0 0 0 70px;
@@ -15,21 +15,21 @@
 }
 
 /*------------------------------------*\
-  BULD FORM-LOOKUP
+  .HEADER-FORM
 \*------------------------------------*/
 
-.formLookup {
+.header-form {
 	display: flex;
 	margin: 30px 0 26px 70px;
 }
 
-.formLookup-input {
+.header-input {
 	border: 1px solid var(--primary-color);
 	background: #FCFCFC;
 	height: 44px;
 }
 
-.formLookup-input-locate {
+.header-input-locate {
 	display: flex;
 	border-radius: 10px 0px 0px 10px;
 	width: 152px;
@@ -37,38 +37,26 @@
 	margin: 0 -1px 0 0;
 }
 
-.locateIcon {
+.header-icon-locate {
 	width: 11px;
 	height: 18px;
 	margin: 17px 14px 8px 12px;
 }
 
-.inputLocate {
-	width: 60px;
-	height: 23px;
-	margin: 11px 58px 10px 0;
-	background-color: blue;
-}
-
-.formLookup-input-other {
+.header-input-other {
 	display: flex;
 	border-radius: 0px 10px 10px 0px;
 	width: 428px;
 }
 
-.glassIcon {
+.header-icon-other {
 	width: 17px;
 	height: 18px;
 	margin: 17px 10px 8px 19px;
 }
 
-.inputOther {
-	width: 260px;
+.header-input-content {
 	height: 23px;
-	margin: 11px 122px 10px 0;
-}
-
-.formLookup-input-content {
 	border: none;
 	font-family: Open Sans-Regular;
 	font-size: 14px;
@@ -78,22 +66,32 @@
 	font-style: normal;
 }
 
-.formLookup-input-content::placeholder {
+.header-input-content::placeholder {
 	color: var(--disabled);
 }
 
+.header-input-content-locate {
+	width: 60px;
+	margin: 11px 58px 0 0;
+}
+
+.header-input-content-other {
+	width: 260px;
+	margin: 11px 122px 0 0;
+}
+
 /*------------------------------------*\
-  BUILD NAVIGATION
+  .HEADER-NAV
 \*------------------------------------*/
 
-.navPrimary-list {
+.header-nav-list {
 	display: flex;
 	text-decoration: none;
 	padding: 41px 78px 40px 43px;
 	gap: 44px;
 }
 
-.navPrimary-list-content {
+.header-nav-item {
 	text-decoration: none;
 	color: #545454;
 	font-family: Open Sans-Regular;
@@ -104,25 +102,25 @@
 	transition: 0.5s;
 }
 
-.navPrimary-list-content:hover {
+.header-nav-item:hover {
 	font-weight: bold;
 	color: orange;
 	text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000,
 		1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
 }
 
-.signupIcon {
+.header-btn {
 	width: 47px;
-	height: 53.979px;
+	height: 54px;
 	margin: 26px 107px 20px 0;
 	cursor: pointer;
 	transition: 0.2s;
 }
 
-.signupIcon:hover {
+.header-btn:hover {
 	transform: scale(1.1);
 }
 
-.signupIcon:active {
+.header-btn:active {
 	transform: scale(0.5);
 }
