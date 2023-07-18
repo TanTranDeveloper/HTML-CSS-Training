@@ -1,0 +1,15 @@
+.education {
+  width: var(--max-width);
+  margin: 0 auto;
+}
+
+.education-title {
+  color: var(--primary-color);
+  text-align: center;
+  font-family: Epilogue-SemiBold;
+  font-size: 28px;
+  text-transform: capitalize;
+  margin: 79px 0 109px 0;
+  line-height: normal;
+  font-style: normal;
+}
