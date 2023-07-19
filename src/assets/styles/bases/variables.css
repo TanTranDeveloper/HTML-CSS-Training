@@ -1,8 +1,8 @@
 :root {
 	--primary-color: #4C84C3;
-	--secondary-color: rgba(27, 113, 161, 0.80);
+	--secondary-color: #283779;
+	--primary-soft: #B2DDED;
 	--light-blue-color: rgba(178, 221, 237, 0.30);
 	--max-width: 1440px;
-	--max-height: 5542px;
 	--disabled: #AAB0B2;
 }
