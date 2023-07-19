@@ -1,0 +1,11 @@
+.card-btn {
+  width: fit-content;
+  color: var(--primary-color);
+  font-size: 15px;
+  font-style: normal;
+  line-height: normal;
+  text-transform: capitalize;
+  text-decoration: none;
+  transition: 0.2s;
+  display: inline-block;
+}
