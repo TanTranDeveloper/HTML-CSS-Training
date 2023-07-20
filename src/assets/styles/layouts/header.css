@@ -36,7 +36,8 @@
 .header__icon--locate {
 	width: 11px;
 	height: 18px;
-	margin: 0 12px;
+	margin: 18px 14px 9px 12px;
+	float: left;
 }
 
 .header__input--search {
@@ -47,7 +48,8 @@
 .header__icon--search {
 	width: 17px;
 	height: 18px;
-	margin: 0 10px 0 19px;
+	margin: 18px 10px 8px 18px;
+	float: left;
 }
 
 .input__content {
