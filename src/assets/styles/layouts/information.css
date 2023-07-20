@@ -4,6 +4,7 @@
 	display: flex;
 	position: relative;
 	gap: 27px;
+	cursor: default;
 }
 
 .information-image {
@@ -20,6 +21,11 @@
 	position: absolute;
 	top: 246px;
 	left: 636px;
+	cursor: pointer;
+}
+
+.information-title:active {
+	opacity: 0.9;
 }
 
 .information-content {

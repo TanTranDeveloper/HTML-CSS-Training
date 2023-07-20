@@ -38,6 +38,7 @@
 	color: var(--primary-color);
 	font-family: Open Sans-Bold;
 	font-size: 20px;
+	cursor: pointer;
 }
 
 .experience-article-content {
@@ -62,4 +63,5 @@
 	margin: 0 0 28px 0;
 	width: 915px;
 	border-bottom: 2px solid #fff;
+	cursor: pointer;
 }

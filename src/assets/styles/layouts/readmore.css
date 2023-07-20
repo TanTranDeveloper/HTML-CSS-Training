@@ -3,6 +3,7 @@
   width: var(--max-width);
   height: 1167px;
   position: relative;
+  cursor: default;
 }
 
 .readmore-post {
@@ -50,11 +51,11 @@
   left: 293px;
   background: none;
   border: none;
+  cursor: pointer;
 }
 
-.card-btn-primary:hover {
-  transform: scale(1.1);
-  color: orange;
+.card-btn-primary:active {
+  opacity: 0.8;
 }
 
 .card-btn-primary-icon {
@@ -100,11 +101,11 @@
 .card-btn-main {
   font-family: Open Sans-Regular;
   margin: 0 0 0 320px;
+  cursor: pointer;
 }
 
-.card-btn-main:hover {
-  transform: scale(1.1);
-  color: orange;
+.card-btn-main:active {
+  opacity: 0.8;
 }
 
 /*------------------------------------*\
@@ -136,9 +137,8 @@
   margin: 0 0 0 242px;
 }
 
-.card-btn-secondary:hover {
-  transform: scale(1.1);
-  color: orange;
+.card-btn-secondary:active {
+  opacity: 0.8;
 }
 
 .readmore-card {
