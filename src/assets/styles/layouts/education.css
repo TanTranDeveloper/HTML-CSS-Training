@@ -1,6 +1,7 @@
 .education {
   width: var(--max-width);
   margin: 0 auto;
+  cursor: default;
 }
 
 .education-title {
@@ -12,5 +13,4 @@
   margin: 79px 0 109px 0;
   line-height: normal;
   font-style: normal;
-  cursor: pointer;
 }
