@@ -30,6 +30,11 @@
   margin: 21px 0 26px 0;
   line-height: normal;
   font-style: normal;
+  cursor: pointer;
+}
+
+.education-card-subtitle:active {
+  opacity: 0.8;
 }
 
 .education-card-content {
@@ -40,6 +45,7 @@
   margin: 0 0 19px 0;
   line-height: normal;
   font-style: normal;
+  cursor: default;
 }
 
 .education-card-list {
@@ -50,6 +56,7 @@
   margin: 0 0 0 16px;
   line-height: normal;
   font-style: normal;
+  cursor: default;
 }
 
 .education-card-list-item {

@@ -99,14 +99,10 @@
 	font-style: normal;
 	line-height: normal;
 	cursor: pointer;
-	transition: 0.5s;
 }
 
-.header-nav-item:hover {
-	font-weight: bold;
-	color: orange;
-	text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000,
-		1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
+.header-nav-item:active {
+	color: var(--disabled);
 }
 
 .header-btn {
@@ -114,13 +110,4 @@
 	height: 54px;
 	margin: 26px 107px 20px 0;
 	cursor: pointer;
-	transition: 0.2s;
-}
-
-.header-btn:hover {
-	transform: scale(1.1);
-}
-
-.header-btn:active {
-	transform: scale(0.5);
 }

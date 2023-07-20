@@ -5,6 +5,7 @@
 	margin: 0 auto;
 	flex-direction: column;
 	position: relative;
+	cursor: default;
 }
 
 /*------------------------------------*\
@@ -111,7 +112,7 @@
 
 .introduce-contact-number {
 	font-size: 24px;
-	transition: 0.2s;
+	cursor: pointer;
 }
 
 .introduce-contact-number:link {
@@ -119,17 +120,8 @@
 	color: #fff;
 }
 
-.introduce-contact-number:hover {
-	transform: scale(1.1);
-	color: orange;
-	text-shadow: 4px 0 4px #000, -4px 0 4px #000, 0 4px 4px #000, 0 -4px 4px #000,
-		3px 3px 3px #000, -3px -3px 3px #000, 3px -3px 3px #000, -3px 3px 3px #000;
-}
-
 .introduce-contact-number:active {
-	transform: scale(1);
-	color: #fff;
-	text-shadow: none;
+	opacity: 0.8;
 }
 
 /*------------------------------------*\
@@ -143,14 +135,17 @@
 	border: none;
 	padding: 0;
 	transition: 0.2s;
+	cursor: pointer;
+	width: 24px;
+	height: 40px;
 }
 
 .gallery-btn:hover {
-	transform: scale(1.3);
+	transform: scale(1.1);
 }
 
 .gallery-btn:active {
-	transform: scale(0.7);
+	transform: scale(1);
 }
 
 .gallery-btn-left {
@@ -177,19 +172,5 @@
 .introduce-gallery-image {
 	width: 274px;
 	height: 206px;
-	transition: 0.2s;
-}
-
-.introduce-gallery-image:hover {
-	transform: scale(1.1);
-}
-
-.introduce-gallery-btn {
-	width: 24px;
-	height: 40px;
-	transition: 0.2s;
-}
-
-.introduce-gallery-btn:active {
-	transform: scale(0.7);
+	cursor: pointer;
 }

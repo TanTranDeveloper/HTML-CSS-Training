@@ -4,6 +4,7 @@
   margin: 0 auto;
   background-color: var(--secondary-color);
   position: relative;
+  cursor: default;
 }
 
 .subscribe-title {
@@ -93,7 +94,7 @@
 }
 
 .subscribe-btn:active {
-  transform: scale(0.9);
+  opacity: 0.5;
 }
 
 .subscribe-image {
