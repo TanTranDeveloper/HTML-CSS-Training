@@ -2,8 +2,7 @@
 	width: var(--max-width);
 	height: 692px;
 	background: var(--light-blue-color);
-	margin: 0 auto;
-	flex-direction: column;
+	margin: auto;
 	position: relative;
 	cursor: default;
 }
@@ -12,48 +11,56 @@
   .INTRODUCE-CONTENT
 \*------------------------------------*/
 
-.introduce-title {
+.introduce__content {
+	display: flex;
+	justify-content: space-between;
+	padding: 100px 97px 0 0px;
+}
+
+.introduce__title {
+	position: absolute;
+	top: 100px;
+	left: 104px;
 	color: var(--primary-color);
 	font-family: Epilogue-Bold;
 	font-size: 36px;
 	letter-spacing: 2px;
 	text-transform: capitalize;
-	padding: 100px 0 0 104px;
+	font-style: normal;
+	line-height: normal;
 }
 
-.introduce-content {
+.introduce__detail {
 	max-width: 646px;
-	height: 309px;
-	margin: 39px 0 0 104px;
+	min-height: 309px;
+	margin: 69px 0 0 104px;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	gap: 29px;
 }
 
-.introduce-content-item {
+.introduce__item {
 	color: #555;
 	font-family: Open Sans-Regular;
 	font-size: 16px;
 	line-height: 33px;
+	font-style: normal;
 	text-transform: capitalize;
 }
 
 /*------------------------------------*\
-  .ASIDE-CONTENT
+  .INTRODUCE-CALENDAR
 \*------------------------------------*/
 
-.introduce-aside {
+.introduce__calendar {
 	max-width: 449px;
-	max-height: 431px;
+	min-height: 431px;
 	border-radius: 20px;
 	background-color: var(--primary-color);
 	color: #fff;
-	position: absolute;
-	top: 88px;
-	right: 97px;
 }
 
-.introduce-aside-title {
+.introduce__heading {
 	max-width: 323px;
 	text-align: center;
 	margin: auto;
@@ -63,64 +70,72 @@
 	letter-spacing: 1px;
 	text-transform: capitalize;
 	border-bottom: 1px solid #fff;
+	font-style: normal;
+	line-height: normal;
 }
 
-.introduce-aside-content {
+.introduce__table {
 	margin: 4px 36px -34px 30px;
 	min-width: 383px;
 	border-collapse: separate;
 	border-spacing: 0 34px;
 }
 
-.introduce-aside-date {
+.introduce__date {
 	font-family: Epilogue-SemiBold;
 	font-size: 24px;
 	text-transform: capitalize;
-
+	font-style: normal;
+	line-height: normal;
 }
 
-.introduce-aside-time {
+.introduce__time {
 	text-align: right;
 	font-family: Epilogue-SemiBold;
 	font-size: 18px;
 	text-transform: capitalize;
+	font-style: normal;
+	line-height: normal;
 }
 
-.introduce-aside-note {
+.introduce__note {
 	font-family: Epilogue-Regular;
 	font-size: 14px;
 	text-transform: capitalize;
 	margin: 22px 0 32px 30px;
+	font-style: normal;
+	line-height: normal;
 }
 
-.introduce-aside-contact {
+.introduce__contact {
 	max-width: 323px;
-	margin: 0 auto;
-	padding: 17px;
+	margin: auto;
 	font-family: Epilogue-Bold;
 	text-transform: capitalize;
 	border-top: 1px solid #fff;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 16px;
+	font-style: normal;
+	line-height: normal;
 }
 
-.introduce-contact-title {
+.introduce__subtitle {
 	font-size: 20px;
+	text-align: center;
+	padding: 17px 0;
 }
 
-.introduce-contact-number {
+.introduce__call {
+	display: block;
 	font-size: 24px;
 	cursor: pointer;
+	text-align: center;
 }
 
-.introduce-contact-number:link {
+.introduce__call:link {
 	text-decoration: none;
 	color: #fff;
 }
 
-.introduce-contact-number:active {
+.introduce__call:active {
 	opacity: 0.8;
 }
 
@@ -128,7 +143,7 @@
   .INTRODUCE-GALLERY
 \*------------------------------------*/
 
-.gallery-btn {
+.gallery__btn {
 	position: absolute;
 	bottom: -23px;
 	background: none;
@@ -140,36 +155,36 @@
 	height: 40px;
 }
 
-.gallery-btn:hover {
+.gallery__btn:hover {
 	transform: scale(1.1);
 }
 
-.gallery-btn:active {
+.gallery__btn:active {
 	transform: scale(1);
 }
 
-.gallery-btn-left {
+.gallery__btn--left {
 	left: 55px;
 }
 
-.gallery-btn-right {
+.gallery__btn--right {
 	right: 55px;
 }
 
-.gallery-btn-image {
+.gallery__arrow {
 	width: 24px;
 	height: 40px;
 }
 
-.introduce-gallery {
+.introduce__gallery {
 	max-width: var(--max-width);
+	margin: 65px auto;
 	display: flex;
 	justify-content: center;
-	margin: 104px auto;
 	gap: 45px;
 }
 
-.introduce-gallery-image {
+.introduce__image {
 	width: 274px;
 	height: 206px;
 	cursor: pointer;
