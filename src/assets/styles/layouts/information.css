@@ -1,38 +1,37 @@
 .information {
 	width: var(--max-width);
-	margin: 0 auto 140px auto;
-	display: flex;
-	position: relative;
-	gap: 27px;
+	margin: 0 auto 140px;
 	cursor: default;
+	padding: 247px 158px 0 119px;
 }
 
-.information-image {
+.information__image {
 	width: 490px;
 	height: 360px;
-	margin: 247px 0 0 119px;
+	float: left;
+	margin: 0 27px 0 0;
 }
 
-.information-title {
+.information__title {
+	padding: 0 0 40px 0;
 	color: var(--primary-color);
 	font-family: Epilogue-SemiBold;
 	font-size: 28px;
 	text-transform: capitalize;
-	position: absolute;
-	top: 246px;
-	left: 636px;
 	cursor: pointer;
+	font-style: normal;
+	line-height: normal;
 }
 
-.information-title:active {
+.information__title:active {
 	opacity: 0.9;
 }
 
-.information-content {
+.information__detail {
 	color: #555;
 	font-family: Open Sans-regular;
 	font-size: 16px;
-	line-height: 33px;
 	text-transform: capitalize;
-	margin: 316px 158px 0 0;
+	font-style: normal;
+	line-height: 33px;
 }
