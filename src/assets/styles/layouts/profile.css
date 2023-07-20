@@ -1,17 +1,18 @@
 .profile {
 	width: var(--max-width);
-	height: 547px;
+	min-height: 547px;
 	margin: 0 auto;
 	position: relative;
 	cursor: default;
+	background: url(../../images/profiles/cover.png) no-repeat;
 }
 
-.profile-title {
-	color: #000;
+.profile__title {
+	padding: 275px 0 0 441px;
 	font-family: Open Sans-Bold;
 	font-size: 28px;
+	color: #000;
 	text-transform: capitalize;
-	margin: 17px 0 0 441px;
 }
 
 .profile-cover {
@@ -19,8 +20,7 @@
 	height: 258px;
 }
 
-.profile-avatar {
-	display: flex;
+.profile__avatar {
 	width: 315px;
 	height: 315px;
 	position: absolute;
@@ -28,62 +28,57 @@
 	left: 104px;
 }
 
-.profile-contents {
-	display: flex;
-	height: 289px;
-	justify-content: space-between;
+.profile__content {
+	display: inline-block;
+	padding: 0 0px 0 441px;
 }
 
-.profile-article {
-	display: flex;
-	flex-direction: column;
-	margin: 0 0 0 441px;
-}
-
-.profile-article-title {
+.profile__content__title {
 	color: #555;
 	font-family: Montserrat-Regular;
 	font-size: 20px;
 	text-transform: capitalize;
-	margin: 12px 0 0 0;
+	padding: 12px 0 14px 0;
 }
 
-.profile-article-content {
+.profile__content__detail {
 	color: #555;
 	font-family: Montserrat-Regular;
 	font-size: 16px;
 	line-height: 23px;
 	text-transform: capitalize;
-	margin: 14px 0 0 0;
+	margin: 0 0 23px 0;
 }
 
-.profile-article-btn {
+.profile__content__btn {
 	width: 223px;
 	height: 37px;
 	border-radius: 10px;
-	border: none;
 	background-color: var(--primary-color);
+	border: none;
 	color: #FFF;
 	font-family: Open Sans-Bold;
 	font-size: 13px;
-	margin: 23px 0 0 0;
 	cursor: pointer;
 }
 
-.profile-article-btn:active {
+.profile__content__btn:active {
 	opacity: 0.9;
 }
 
-.profile-nav-list {
+.profile__media {
 	display: flex;
-	gap: 0 22px;
+	gap: 22px;
 	position: absolute;
 	top: 286px;
 	right: 97px;
 }
 
-.profile-nav-item {
+.media__icon {
 	width: 32px;
 	height: 32px;
-	transition: 0.2s;
+}
+
+.media__icon:active {
+	opacity: 0.8;
 }
