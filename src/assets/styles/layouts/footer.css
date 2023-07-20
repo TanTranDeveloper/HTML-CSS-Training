@@ -1,0 +1,33 @@
+.footer {
+  width: var(--max-width);
+  margin: auto;
+  background: var(--secondary-color);
+  padding: 24px 162px 24px 226px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__content {
+  color: #E0DEDE;
+  font-family: Roboto-Regular;
+  font-size: 13px;
+  font-style: normal;
+  line-height: normal;
+  cursor: default;
+}
+
+.footer__content--policy {
+  color: #E0DEDE;
+  text-align: right;
+  font-family: Roboto-Light;
+  font-size: 13px;
+  font-style: normal;
+  line-height: normal;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.footer__content--policy:hover {
+  color: white;
+}
