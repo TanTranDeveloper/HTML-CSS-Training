@@ -8,6 +8,7 @@
 	width: 85px;
 	height: 76px;
 	margin: 12px 0 12px 70px;
+	background: url(../../images/logos/main-logo.png);
 }
 
 /*------------------------------------*\
@@ -35,7 +36,7 @@
 .header__icon--locate {
 	width: 11px;
 	height: 18px;
-	margin: 0 14px 0 12px;
+	margin: 0 12px;
 }
 
 .header__input--search {
@@ -79,8 +80,11 @@
 \*------------------------------------*/
 
 .header__nav {
+	margin: 41px 78px 0 43px;
+}
+
+.header__nav__list {
 	display: flex;
-	padding: 41px 78px 40px 43px;
 	gap: 44px;
 	text-decoration: none;
 }
@@ -102,7 +106,7 @@
 .header__btn {
 	width: 47px;
 	height: 54px;
-	margin: 26px 0 0 0;
+	margin: 26px 0 0;
 	cursor: pointer;
 	background: transparent;
 	border: none;
