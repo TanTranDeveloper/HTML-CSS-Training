@@ -113,3 +113,7 @@
 	background: transparent;
 	border: none;
 }
+
+.header__btn:active {
+	opacity: 0.8;
+}
