@@ -42,6 +42,6 @@ npm install
 ~~~
 npm start
 ~~~
-- **Step 05: Open on Browsers**
+- **Step 05: Open in Browsers**
 ~~~
 run http://localhost:1234 on browser
