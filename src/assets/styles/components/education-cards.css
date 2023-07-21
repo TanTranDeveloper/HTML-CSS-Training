@@ -1,0 +1,59 @@
+.education-card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 58px 105px;
+}
+
+.education__content {
+  width: 457px;
+  height: 400px;
+  border-radius: 20px;
+  border: 1px solid #E0DEDE;
+  background: #FFF;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.10);
+  padding: 31px 0 0 27px;
+}
+
+.education__image {
+  width: 137px;
+  height: 136px;
+}
+
+.education__subtitle {
+  color: var(--primary-color);
+  font-family: Open Sans-Bold;
+  font-size: 20px;
+  margin: 21px 0 26px 0;
+  line-height: normal;
+  font-style: normal;
+  cursor: pointer;
+}
+
+.education__subtitle:active {
+  opacity: 0.8;
+}
+
+.education__detail {
+  width: 399px;
+  color: #555;
+  font-family: Open Sans-Regular;
+  font-size: 15px;
+  margin: 0 0 19px 0;
+  line-height: normal;
+  font-style: normal;
+}
+
+.education__list {
+  list-style: disc inside;
+  color: #000;
+  font-family: Open Sans-SemiBold;
+  font-size: 15px;
+  margin: 0 0 0 16px;
+  line-height: normal;
+  font-style: normal;
+}
+
+.education__item {
+  margin: 0 0 10px 0;
+}

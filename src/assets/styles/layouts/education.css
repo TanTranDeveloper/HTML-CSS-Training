@@ -1,16 +1,16 @@
 .education {
   width: var(--max-width);
-  margin: 0 auto;
+  margin: auto;
   cursor: default;
 }
 
-.education-title {
+.education__title {
   color: var(--primary-color);
   text-align: center;
   font-family: Epilogue-SemiBold;
   font-size: 28px;
   text-transform: capitalize;
-  margin: 79px 0 109px 0;
+  margin: 79px 0 109px;
   line-height: normal;
   font-style: normal;
 }
