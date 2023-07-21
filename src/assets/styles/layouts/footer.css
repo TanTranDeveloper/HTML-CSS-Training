@@ -7,7 +7,7 @@
   justify-content: space-between;
 }
 
-.footer__content {
+.footer__copyright {
   color: #E0DEDE;
   font-family: Roboto-Regular;
   font-size: 13px;
@@ -16,18 +16,18 @@
   cursor: default;
 }
 
-.footer__content--policy {
+.footer__policy {
   color: #E0DEDE;
-  text-align: right;
   font-family: Roboto-Light;
   font-size: 13px;
   font-style: normal;
   line-height: normal;
   text-transform: capitalize;
   cursor: pointer;
+  text-decoration: none;
   transition: 0.2s;
 }
 
-.footer__content--policy:hover {
+.footer__policy:hover {
   color: white;
 }
