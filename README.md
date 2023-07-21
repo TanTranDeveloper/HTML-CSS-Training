@@ -5,6 +5,7 @@
     - Link design: [FIGMA](https://www.figma.com/file/fPgVhV6lef9uCoBH4YiEm7/Swasthu-website-(Community)?node-id=0%3A1&mode=dev)
     - Plan: [Doc](https://docs.google.com/document/d/1i5yfSNclPl8lYqqhsBx3LIiI4JrjbecYHukpb8H7bLI/edit)
     - Deploy:
+- Time-line: Estimate: 8 days (July 10, 2023 - July 18, 2023) / Actual: 10 days
 
 ## Overview
 - Requirements
@@ -25,7 +26,7 @@
 3. Npm -- v9.5.1
 
 ## Getting started
-- **Step 01: Clone repository with HTTPS in Terminal**
+- **Step 01: Clone repository with HTTPS :**
 ~~~
 git clone https://github.com/tantran-agilityio/html-css-training.git
 ~~~
@@ -41,3 +42,6 @@ npm install
 ~~~
 npm start
 ~~~
+- **Step 05: Open on Browsers**
+~~~
+run http://localhost:1234 on browser
