@@ -1,12 +1,40 @@
 .experience {
 	width: var(--max-width);
-	height: 692px;
-	margin: 0 auto;
+	min-height: 692px;
+	margin: auto;
+	padding: 72px 0 73px 119px;
 	background-color: var(--light-blue-color);
 	position: relative;
+	cursor: default;
 }
 
-.experience-logo {
+.experience__title {
+	color: var(--primary-color);
+	font-family: Epilogue-SemiBold;
+	font-size: 28px;
+	text-transform: capitalize;
+	font-style: normal;
+	line-height: normal;
+}
+
+.experience__content {
+	width: 915px;
+	padding: 0 0 45px 0;
+	border-bottom: 1px solid #fff;
+	margin: 76px 0 28px 64px;
+}
+
+.experience__item {
+	width: 673px;
+	margin: 17px 0 0 23px;
+	color: #555;
+	font-family: Open Sans-Regular;
+	font-size: 15px;
+	font-style: normal;
+	line-height: normal;
+}
+
+.experience__logo {
 	width: 128px;
 	height: 144px;
 	mix-blend-mode: multiply;
@@ -15,53 +43,29 @@
 	right: 378px;
 }
 
-.experience-title {
-	color: var(--primary-color);
-	font-family: Epilogue-SemiBold;
-	font-size: 28px;
-	text-transform: capitalize;
-	position: absolute;
-	top: 72px;
-	left: 119px;
-}
-
-.experience-article {
-	position: absolute;
-	top: 178px;
-	left: 183px;
+.experience__expand {
 	width: 915px;
-	padding: 0 0 45px 0;
-	border-bottom: 2px solid #fff;
+	margin: 0 0 0 64px;
+	padding: 28px 0;
+	border-bottom: 1px solid #fff;
 }
 
-.experience-article-subtitle {
-	color: var(--primary-color);
-	font-family: Open Sans-Bold;
-	font-size: 20px;
-	cursor: pointer;
-}
-
-.experience-article-content {
-	width: 673px;
-	margin: 17px 0 0 23px;
-	color: #555;
-	font-family: Open Sans-Regular;
-	font-size: 15px;
-}
-
-.experience-article-expand {
-	position: absolute;
-	top: 381px;
-	left: 183px;
-}
-
-.experience-expand-subtitle {
+.experience__subtitle {
 	color: rgba(0, 0, 0, 0.87);
 	font-family: Open Sans-Bold;
 	font-size: 20px;
-	padding: 0 0 28px 0;
-	margin: 0 0 28px 0;
-	width: 915px;
-	border-bottom: 2px solid #fff;
 	cursor: pointer;
+	font-style: normal;
+	line-height: normal;
+	background: transparent;
+	border: none;
+	transition: 0.2s;
+}
+
+.experience__subtitle:hover {
+	color: var(--primary-color);
+}
+
+.experience__subtitle:active {
+	opacity: 0.8;
 }
