@@ -5,7 +5,7 @@
     - Link design: [FIGMA](https://www.figma.com/file/fPgVhV6lef9uCoBH4YiEm7/Swasthu-website-(Community)?node-id=0%3A1&mode=dev)
     - Plan: [Doc](https://docs.google.com/document/d/1i5yfSNclPl8lYqqhsBx3LIiI4JrjbecYHukpb8H7bLI/edit)
     - Deploy:
-- Time-line: Estimate: 8 days (July 10, 2023 - July 18, 2023) / Actual: 10 days
+- Time-line: Estimate: 5 days (July 11, 2023 - July 17, 2023) / Actual: 9 days
 
 ## Overview
 - Requirements
