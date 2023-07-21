@@ -1,82 +1,85 @@
 .readmore {
-  margin: 0 auto;
+  margin: auto;
   width: var(--max-width);
-  height: 1167px;
+  min-height: 1167px;
   position: relative;
   cursor: default;
 }
 
-.card-content {
-  color: #555;
-  font-family: Open Sans-Regular;
-  font-size: 15px;
-  font-style: normal;
-  line-height: normal;
-}
-
-.readmore-post {
-  width: 100%;
-  height: 338px;
-  margin: 0 auto;
-  background-color: var(--light-blue-color);
-  position: absolute;
-  top: 414px;
-}
-
-.readmore-title {
-  width: 350px;
+.readmore__title {
+  width: 427px;
+  padding: 467px 0 0 37px;
   color: var(--primary-color);
   font-family: Epilogue-SemiBold;
   font-size: 28px;
   font-style: normal;
   line-height: 36px;
   text-transform: capitalize;
-  position: absolute;
-  top: 467px;
-  left: 37px;
 }
 
-.readmore-post-content {
-  width: 316px;
-  height: 40px;
+.readmore__content {
+  width: 100%;
+  min-height: 338px;
+  margin: 0 auto;
+  background-color: var(--light-blue-color);
+  position: absolute;
+  top: 414px;
+}
+
+.readmore__detail {
   color: #555;
   font-family: Open Sans-Regular;
   font-size: 15px;
   font-style: normal;
   line-height: normal;
+}
+
+.readmore__detail--center {
+  width: 316px;
+  height: 40px;
   margin: 144px 0 0 37px;
 }
 
 /*------------------------------------*\
-  PRIMARY-BUTTON
+  .BTN-ARROW
 \*------------------------------------*/
 
-.card-btn-primary {
+.readmore__btn--arrow {
   font-family: Open Sans-SemiBold;
-  display: flex;
-  position: absolute;
-  bottom: 86px;
-  left: 293px;
+  padding: 38px 0 0 293px;
   background: none;
   border: none;
   cursor: pointer;
 }
 
-.card-btn-primary:active {
+.readmore__btn--arrow:active {
   opacity: 0.8;
 }
 
-.card-btn-primary-icon {
+.readmore__icon {
   width: 22px;
   height: 14px;
   fill: var(--primary-color);
 }
 
 /*------------------------------------*\
-  CARD-MAIN-ITEM
+  .CARD--LARGE
 \*------------------------------------*/
 
-.card-main-item {
+.readmore__card {
+  width: 850px;
+  height: 770px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: absolute;
+  top: 185px;
+  right: 39px;
+}
+
+.readmore__card--large {
   width: 457px;
   height: 526px;
   border-radius: 20px;
@@ -86,13 +89,13 @@
   z-index: 0;
 }
 
-.card-main-image {
+.readmore__img--large {
   width: 100%;
   height: 345px;
   object-fit: cover;
 }
 
-.card-subtitle {
+.readmore__subtitle {
   color: var(--primary-color);
   font-family: Open Sans-Bold;
   font-size: 20px;
@@ -101,26 +104,26 @@
   margin: 21px 0 0 14px;
 }
 
-.card-content-main {
+.readmore__detail--large {
   width: 400px;
   margin: 14px 0 10px 14px;
 }
 
-.card-btn-main {
+.readmore__btn--large {
   font-family: Open Sans-Regular;
   margin: 0 0 0 320px;
   cursor: pointer;
 }
 
-.card-btn-main:active {
+.readmore__btn--large:active {
   opacity: 0.8;
 }
 
 /*------------------------------------*\
-  .CARD-ITEM
+  .CARD--NORMAL
 \*------------------------------------*/
 
-.card-item {
+.readmore__card--normal {
   width: 373px;
   height: 375px;
   border-radius: 20px;
@@ -130,34 +133,22 @@
   object-fit: cover;
 }
 
-.card-image {
+.readmore__img--normal {
   width: 100%;
   height: 240px;
 }
 
-.card-content-expand {
+.readmore__detail--normal {
   width: 316px;
   margin: 13px 0 0 13px;
 }
 
-.card-btn-secondary {
+.readmore__btn--normal {
   font-family: Open Sans-Regular;
   margin: 0 0 0 242px;
+  cursor: pointer;
 }
 
-.card-btn-secondary:active {
+.readmore__btn--normal:active {
   opacity: 0.8;
-}
-
-.readmore-card {
-  flex-direction: column;
-  height: 770px;
-  width: 850px;
-  gap: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  position: absolute;
-  top: 185px;
-  right: 39px;
 }
