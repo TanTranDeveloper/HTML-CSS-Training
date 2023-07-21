@@ -1,4 +1,4 @@
-.card-btn {
+.readmore__btn {
   width: fit-content;
   color: var(--primary-color);
   font-size: 15px;
@@ -7,5 +7,4 @@
   text-transform: capitalize;
   text-decoration: none;
   transition: 0.2s;
-  display: inline-block;
 }
