@@ -4,7 +4,7 @@
 - Project **"Practice-one"**: build a basic *"Swasthu website"* design - using HTML5, CSS3, Flexbox.
     - Link design: [FIGMA](https://www.figma.com/file/fPgVhV6lef9uCoBH4YiEm7/Swasthu-website-(Community)?node-id=0%3A1&mode=dev)
     - Plan: [Doc](https://docs.google.com/document/d/1i5yfSNclPl8lYqqhsBx3LIiI4JrjbecYHukpb8H7bLI/edit)
-    - Deploy:
+    - Deploy: [Link](https://html-css-training-rg8k.vercel.app/)
 - Time-line: Estimate: 5 days (July 11, 2023 - July 17, 2023) / Actual: 9 days
 
 ## Overview
