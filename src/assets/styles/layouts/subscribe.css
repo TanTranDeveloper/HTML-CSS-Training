@@ -3,7 +3,7 @@
   margin: auto;
   background-color: var(--secondary-color);
   position: relative;
-  cursor: default;
+  /* cursor: default; */
   padding: 66px 225px 46px 152px;
 }
 

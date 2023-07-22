@@ -1,7 +1,6 @@
 .education {
   width: var(--max-width);
   margin: auto;
-  cursor: default;
 }
 
 .education__title {

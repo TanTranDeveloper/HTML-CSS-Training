@@ -3,7 +3,6 @@
   width: var(--max-width);
   min-height: 1167px;
   position: relative;
-  cursor: default;
 }
 
 .readmore__title {
