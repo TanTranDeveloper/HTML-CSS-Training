@@ -1,14 +1,13 @@
 .header {
-	display: flex;
 	width: var(--max-width);
+	display: flex;
 	margin: auto;
 }
 
 .header__logo {
 	width: 85px;
 	height: 76px;
-	margin: 12px 0 12px 70px;
-	background: url(../../images/logos/main-logo.png);
+	margin: 12px 70px;
 }
 
 /*------------------------------------*\
@@ -16,7 +15,7 @@
 \*------------------------------------*/
 
 .header__form {
-	margin: 30px 0 26px 70px;
+	margin: 30px 0 26px;
 }
 
 .header__input {
@@ -85,23 +84,29 @@
 	margin: 41px 78px 0 43px;
 }
 
-.header__nav__list {
+.header__list {
 	display: flex;
 	gap: 44px;
-	text-decoration: none;
 }
 
-.nav__item {
+.header__access {
 	text-decoration: none;
 	color: #545454;
 	font-family: Open Sans-Regular;
 	font-size: 14px;
 	font-style: normal;
 	line-height: normal;
+	font-weight: 400;
 	cursor: pointer;
+	text-align: center;
+	transition: 0.2s;
 }
 
-.nav__item:active {
+.header__access:hover {
+	opacity: 0.8;
+}
+
+.header__access:active {
 	color: var(--disabled);
 }
 
@@ -112,8 +117,9 @@
 	cursor: pointer;
 	background: transparent;
 	border: none;
+	transition: 0.2s;
 }
 
 .header__btn:active {
-	opacity: 0.8;
+	opacity: 0.6;
 }
