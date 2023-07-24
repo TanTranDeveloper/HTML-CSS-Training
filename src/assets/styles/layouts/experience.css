@@ -2,9 +2,8 @@
 	width: var(--max-width);
 	min-height: 692px;
 	margin: auto;
-	padding: 72px 0 73px 119px;
+	padding: 72px 0 101px 119px;
 	background-color: var(--light-blue-color);
-	position: relative;
 }
 
 .experience__title {
@@ -17,14 +16,14 @@
 }
 
 .experience__content {
-	width: 915px;
+	max-width: 915px;
 	padding: 0 0 45px 0;
 	border-bottom: 1px solid #fff;
-	margin: 76px 0 28px 64px;
+	margin: 76px 0 0 64px;
 }
 
 .experience__item {
-	width: 673px;
+	max-width: 673px;
 	margin: 17px 0 0 23px;
 	color: #555;
 	font-family: Open Sans-Regular;
@@ -37,9 +36,8 @@
 	width: 128px;
 	height: 144px;
 	mix-blend-mode: multiply;
-	position: absolute;
-	top: 178px;
-	right: 378px;
+	float: right;
+	margin: 0 41px 0 0;
 }
 
 .experience__expand {
