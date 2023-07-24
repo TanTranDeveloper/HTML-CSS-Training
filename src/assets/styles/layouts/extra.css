@@ -44,6 +44,10 @@
   color: white;
 }
 
+.extra__link:active {
+  opacity: 0.7;
+}
+
 .extra__link--special {
   color: #FFF;
   font-family: Roboto-Bold;
@@ -57,4 +61,8 @@
 
 .extra__link--special:hover {
   color: var(--blue-soft);
+}
+
+.extra__link--special:active {
+  opacity: 0.7;
 }
