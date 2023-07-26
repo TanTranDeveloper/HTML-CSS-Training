@@ -13,13 +13,10 @@
 .introduce__content {
 	display: flex;
 	justify-content: space-between;
-	padding: 100px 97px 0 0px;
+	padding: 100px 97px 0 104px;
 }
 
 .introduce__title {
-	position: absolute;
-	top: 100px;
-	left: 104px;
 	color: var(--primary-color);
 	font-family: Epilogue-Bold;
 	font-size: 36px;
@@ -31,11 +28,9 @@
 
 .introduce__detail {
 	max-width: 646px;
-	min-height: 309px;
-	margin: 69px 0 0 104px;
 	display: flex;
 	flex-direction: column;
-	gap: 29px;
+	gap: 39px;
 }
 
 .introduce__item {
@@ -143,6 +138,8 @@
 \*------------------------------------*/
 
 .gallery__btn {
+	width: 24px;
+	height: 40px;
 	position: absolute;
 	bottom: -20px;
 	background: none;
@@ -150,8 +147,6 @@
 	padding: 0;
 	transition: 0.2s;
 	cursor: pointer;
-	width: 24px;
-	height: 40px;
 }
 
 .gallery__btn:hover {
