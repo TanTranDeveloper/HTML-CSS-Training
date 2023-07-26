@@ -1,13 +1,13 @@
 .readmore {
-  margin: auto;
   width: var(--max-width);
   min-height: 1167px;
   position: relative;
+  margin: auto;
 }
 
 .readmore__title {
-  width: 427px;
-  padding: 467px 0 0 37px;
+  max-width: 427px;
+  padding: 53px 0 0 37px;
   color: var(--primary-color);
   font-family: Epilogue-SemiBold;
   font-size: 28px;
@@ -34,9 +34,9 @@
 }
 
 .readmore__detail--center {
-  width: 316px;
-  height: 40px;
-  margin: 144px 0 0 37px;
+  max-width: 316px;
+  min-height: 40px;
+  margin: 20px 0 0 37px;
 }
 
 /*------------------------------------*\
@@ -45,14 +45,17 @@
 
 .readmore__btn--arrow {
   font-family: Open Sans-SemiBold;
-  padding: 38px 0 0 293px;
-  background: none;
+  font-size: 15px;
+  margin: 38px 0 0 293px;
   border: none;
   cursor: pointer;
+  font-style: normal;
+  line-height: normal;
+  transition: 0.2s;
 }
 
 .readmore__btn--arrow:active {
-  opacity: 0.8;
+  opacity: 0.7;
 }
 
 .readmore__icon {
@@ -73,9 +76,8 @@
   gap: 20px;
   flex-wrap: wrap;
   justify-content: center;
-  position: absolute;
-  top: 185px;
-  right: 39px;
+  float: right;
+  margin: 185px 39px 0 0;
 }
 
 .readmore__card--large {
@@ -85,7 +87,7 @@
   background: #FFF;
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.10);
   overflow: hidden;
-  z-index: 0;
+  z-index: 1;
 }
 
 .readmore__img--large {
@@ -115,7 +117,7 @@
 }
 
 .readmore__btn--large:active {
-  opacity: 0.8;
+  opacity: 0.7;
 }
 
 /*------------------------------------*\
@@ -130,6 +132,7 @@
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.10);
   overflow: hidden;
   object-fit: cover;
+  z-index: 1;
 }
 
 .readmore__img--normal {
@@ -149,5 +152,5 @@
 }
 
 .readmore__btn--normal:active {
-  opacity: 0.8;
+  opacity: 0.7;
 }
