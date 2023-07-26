@@ -30,3 +30,7 @@
 .footer__policy:hover {
   color: white;
 }
+
+.footer__policy:active {
+  opacity: 0.7;
+}
