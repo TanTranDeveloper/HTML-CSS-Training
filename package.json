@@ -5,9 +5,7 @@
   "source": "src/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel",
-    "build": "parcel build",
-    "start": "parcel"
+    "start": "rm -rf .parcel-cache && parcel"
   },
   "keywords": [],
   "author": "TanTran",
@@ -21,5 +19,12 @@
   "dependencies": {
     "posthtml": "^0.16.6",
     "posthtml-include": "^1.7.4"
+  },
+	"posthtml": {
+    "plugins": {
+      "posthtml-include": {
+        "root": "./src"
+      }
+    }
   }
 }
