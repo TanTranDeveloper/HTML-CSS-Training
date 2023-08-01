@@ -2,5 +2,6 @@
 @import url(./base/index.css);
 @import url(./utils/index.css);
 
-/*layouts*/
+/*layouts & components*/
 @import url(./layouts/index.css);
+@import url(./components/index.css);
