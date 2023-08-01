@@ -19,7 +19,7 @@
 	grid-template-columns: auto auto;
 	border-top: 1px solid #787878;
 	border-bottom: 1px solid #787878;
-	gap: 3.1rem 1.2rem;
+	gap: 3.2rem 0;
 	justify-content: space-between;
 	padding: 3.2rem 0 7rem;
 }
