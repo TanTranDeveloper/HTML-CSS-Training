@@ -1,5 +1,6 @@
 :root {
 	--primary-color: #F4F4F4;
 	--secondary-color: #004050;
+	--max-width: 1440px;
 	--min-width: 320px;
 }
