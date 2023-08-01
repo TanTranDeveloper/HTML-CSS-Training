@@ -1,5 +1,5 @@
 .member__card {
-	width: 13rem;
+	width: calc((131 / 10) * 1rem);
 	height: calc((206 / 10) * 1rem);
 }
 
