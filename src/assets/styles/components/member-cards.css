@@ -1,0 +1,28 @@
+.member__card {
+	width: 13rem;
+	height: calc((206 / 10) * 1rem);
+}
+
+.member__avt {
+	width: 100%;
+	height: auto;
+}
+
+.member__name {
+	color: #000;
+	font-family: Satoshi;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin: 1.2rem 0 0.2rem;
+}
+
+.member__job {
+	color: #000;
+	font-family: Satoshi;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
