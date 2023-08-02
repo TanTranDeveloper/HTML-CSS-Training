@@ -1,0 +1,59 @@
+.recruit {
+	padding: 3.2rem 2.4rem 7rem;
+	display: grid;
+	grid-template-columns: auto;
+}
+
+.recruit__title {
+	color: #000;
+	font-family: Satoshi;
+	font-size: calc((36 / 10) * 1rem);
+	font-style: normal;
+	font-weight: 700;
+	line-height: calc((46 / 10) * 1rem);
+	margin: 0 0 1.6rem;
+}
+
+.recruit__detail {
+	color: #1B2730;
+	font-family: Satoshi;
+	font-size: calc((16 / 10) *1rem);
+	font-style: normal;
+	font-weight: 500;
+	line-height: calc((26 / 10) * 1rem);
+}
+
+.recruit__btn {
+	margin: 2.4rem 0 0;
+	padding: 0;
+	color: #000;
+	text-align: center;
+	font-family: Satoshi;
+	font-size: calc((20 / 10) * 1rem);
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	height: fit-content;
+	background: none;
+	border: none;
+	position: relative;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+.recruit__btn:active {
+	opacity: 0.5;
+}
+
+.recruit__btn--green {
+	display: inline-block;
+	width: calc((24 / 10) * 1rem);
+	height: calc((24 / 10) * 1rem);
+	position: absolute;
+	bottom: calc((2 / 10) * 1rem);
+}
+
+.recruit__btn__img {
+	width: 100%;
+	height: auto;
+}
