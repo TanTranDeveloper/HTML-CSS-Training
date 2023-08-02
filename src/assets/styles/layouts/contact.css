@@ -1,0 +1,110 @@
+.contact {
+	background-color: var(--secondary-color);
+	padding: 7.2rem 2.4rem 4.5rem;
+	display: grid;
+	grid-template-columns: auto;
+	position: relative;
+}
+
+.contact__content {
+	padding: 0 0 4.8rem;
+	border-bottom: 1px solid #fff;
+}
+
+.contact__title {
+	color: #FFF;
+	font-family: Satoshi;
+	font-size: calc((36 / 10) * 1rem);
+	font-style: normal;
+	font-weight: 700;
+	line-height: calc((46 / 10) * 1rem);
+	padding: 0 1rem 0 0;
+	margin: 0 0 1.6rem;
+}
+
+.contact__detail {
+	color: #FFF;
+	font-family: Satoshi;
+	font-size: calc((16 / 10) * 1rem);
+	font-style: normal;
+	font-weight: 500;
+	line-height: calc((26 / 10) * 1rem);
+}
+
+.contact__access {
+	margin: 3.2rem 0 0;
+	display: grid;
+	grid-template-columns: auto;
+	align-items: center;
+	justify-content: center;
+}
+
+.contact__btn {
+	width: calc((272 / 10) * 1rem);
+	border: none;
+	border-radius: 8px;
+	background: #FFF;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	padding: 2.1rem 0 1.9rem 6.5rem;
+	/*text*/
+	color: #000;
+	font-family: Satoshi;
+	font-size: calc((18 / 10) * 1rem);
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: capitalize;
+	gap: calc((27 / 10) * 1rem);
+	margin: 0 0 4.8rem;
+}
+
+.contact__number {
+	color: #FFF;
+	font-family: Satoshi;
+	font-size: calc((18 / 10) * 1rem);
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.contact__link {
+	color: #FFF;
+	font-family: Satoshi;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-align: center;
+}
+
+.contact__picture {
+	margin: 6.2rem 0 0;
+	width: calc((29 / 10) * 1rem);
+	height: calc((364 / 10) * 1rem);
+}
+
+.contact__style {
+	background-color: red;
+}
+
+.contact__img {
+	border-radius: 1rem;
+	margin: 6.2rem 0 0 ;
+}
+
+/* .contact__img--yellow {
+	position: absolute;
+	width: calc((326 / 10) * 1rem);
+	height: calc((215 / 10) * 1rem);
+	right: 0;
+	bottom: 0;
+}
+
+.contact__img--green {
+	position: absolute;
+	width: calc((193 / 10) * 1rem);
+	right: 0;
+	bottom: 0;
+} */
