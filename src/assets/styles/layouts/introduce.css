@@ -2,9 +2,12 @@
 	padding: 0 2.4rem 0;
 }
 
+.introduce__container {
+	max-width: var(--max-width);
+	margin: 0 auto;
+}
+
 .introduce__content {
-	display: grid;
-	grid-template-columns: 1fr;
 	padding: 3.2rem 0 8rem;
 	margin: 4.8rem 0 3.2rem;
 	border-top: 1px solid #787878;
@@ -104,4 +107,20 @@
 	font-style: normal;
 	font-weight: 700;
 	line-height: 4.8rem;
+}
+
+@media screen and (min-width: 1200px) {
+
+	.introduce__content {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		margin: 14rem 15rem 0;
+	}
+
+	.introduce__aside {
+		display: flex;
+		justify-content: space-between;
+		margin: 0 15rem 0;
+	}
+
 }
