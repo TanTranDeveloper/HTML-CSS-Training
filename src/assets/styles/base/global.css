@@ -1,4 +1,4 @@
-* {
+*, *::before, *::after {
 	box-sizing: border-box;
 }
 
@@ -7,7 +7,5 @@ html {
 }
 
 body {
-	max-width: var(--max-width);
 	min-width: var(--min-width);
-	margin: 0 auto;
 }
