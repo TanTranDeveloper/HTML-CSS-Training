@@ -1,6 +1,7 @@
 @media screen and (min-width: var(--screen-xs)) {
 	.container {
 		width: 100%;
+		margin: 0 auto;
 		padding: 0 24px;
 	}
 }
@@ -8,6 +9,7 @@
 @media screen and (min-width: var(--screen-xxl)) {
 	.container {
 		width: 100%;
+		margin: 0 auto;
 		padding: 0 150px;
 	}
 }
