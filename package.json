@@ -1,0 +1,28 @@
+{
+  "name": "Yoora",
+  "version": "1.0.0",
+  "description": "Build a landing page Yoora",
+	"source": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+		"start": "rm -rf .parcel-cache && rm -rf dist && parcel",
+    "build": "parcel build"
+  },
+  "keywords": [],
+  "author": "TanTran",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  },
+  "dependencies": {
+    "posthtml": "^0.16.6",
+    "posthtml-include": "^1.7.4"
+  },
+	"posthtml": {
+    "plugins": {
+      "posthtml-include": {
+        "root": "./src"
+      }
+    }
+  }
+}
