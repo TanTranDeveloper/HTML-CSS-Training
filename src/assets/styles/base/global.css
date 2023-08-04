@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+@media screen and (min-width: var(--screen-xs)) {
+	:root {
+		--fs-root: 12px;
+	}
+}
+
+@media screen and (min-width: var(--screen-md)) {
+	:root {
+		--fs-root: 13px;
+	}
+}
+
+@media screen and (min-width: var(--screen-lg)) {
+	:root {
+		--fs-root: 14px;
+	}
+}
+
+html {
+	font-size: var(--fs-root);
+}
+
+body {
+	min-width: var(--screen-xs);
+}
