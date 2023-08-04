@@ -3,9 +3,31 @@
 }
 
 html {
-	font-size: 10px;
+	font-size: var(--fs-root);
 }
 
 body {
 	min-width: var(--min-width);
 }
+
+@media screen and (min-width: 320px) {
+	.container {
+		width: calc((48 / var(--fs-root)) * 1rem);
+		margin: 0 auto;
+	}
+}
+
+/* @media screen and (min-width: 320px) {
+	.container {
+		max-width: calc(100% - calc((48 / 13) * 1rem));
+		margin: 0 auto;
+		padding: calc(26 / var(--fs-root));
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.container {
+		max-width: calc(100% - calc((300 / 14) * 1rem));
+		margin: 0 auto;
+	}
+} */
