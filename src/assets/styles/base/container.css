@@ -14,6 +14,14 @@
 	.container {
 		width: 100%;
 		margin: 0 auto;
+		padding: 0 107px;
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	.container {
+		width: 100%;
+		margin: 0 auto;
 		padding: 0 150px;
 	}
 }
