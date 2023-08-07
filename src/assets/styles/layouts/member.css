@@ -21,7 +21,7 @@
 	border-bottom: 1px solid #787878;
 	gap: calc((32 / var(--fs-root)) * 1rem) 0;
 	justify-content: space-between;
-	padding: calc((32 / var(--fs-root)) * 1rem) 0 calc((87 / var(--fs-root)) * 1rem);
+	padding: calc((32 / var(--fs-root)) * 1rem) 0 calc((102 / var(--fs-root)) * 1rem);
 }
 
 @media screen and (min-width: 768px) {
