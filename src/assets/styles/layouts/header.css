@@ -1,5 +1,5 @@
 .main-header {
-	margin: calc(26 / var(--fs-root) * 1rem) 0 0;
+	margin: calc((26 / var(--fs-root)) * 1rem) 0 0;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -25,7 +25,7 @@
 .navbar-item {
 	color: #000;
 	font-family: Satoshi;
-	font-size: calc((14 / var(--fs-root) * 1rem));
+	font-size: calc((14 / var(--fs-root)) * 1rem);
 	font-style: normal;
 	font-weight: 500;
 	line-height: normal;
@@ -38,14 +38,14 @@
 
 .cta-btn-wrapper {
 	display: flex;
-	gap: calc((16 / var(--fs-root) * 1rem));
+	gap: calc((16 / var(--fs-root)) * 1rem);
 }
 
 .cta-btn {
 	border-radius: 4px;
-	padding: calc(7 / var(--fs-root) * 1rem) calc((12 / var(--fs-root) * 1rem));
+	padding: calc((7 / var(--fs-root)) * 1rem) calc((12 / var(--fs-root)) * 1rem);
 	font-family: Satoshi;
-	font-size: calc((14 / var(--fs-root) * 1rem));
+	font-size: calc((14 / var(--fs-root)) * 1rem);
 	font-style: normal;
 	font-weight: 700;
 	line-height: normal;
@@ -81,11 +81,11 @@
 }
 
 .menu-toggle {
-	width: calc((24 / var(--fs-root) * 1rem));
-	height: calc((24 / var(--fs-root) * 1rem));
+	width: calc((24 / var(--fs-root)) * 1rem);
+	height: calc((24 / var(--fs-root)) * 1rem);
 	background: none;
 	border: none;
-	margin-right: calc((6 / var(--fs-root) * 1rem));
+	margin-right: calc((6 / var(--fs-root)) * 1rem);
 }
 
 .toggle-line {
@@ -113,7 +113,7 @@
 	.main-header {
 		display: grid;
 		grid-template-columns: auto 1fr auto;
-		margin: calc(24 / var(--fs-root) * 1rem) 0 0;
+		margin: calc((24 / var(--fs-root)) * 1rem) 0 0;
 	}
 
 	.header-logo-wrapper {
@@ -127,7 +127,7 @@
 
 	.header-navbar {
 		display: block;
-		margin: 0 0 0 calc((33 / var(--fs-root) * 1rem));
+		margin: 0 0 0 calc((33 / var(--fs-root)) * 1rem);
 	}
 
 	.cta-btn {
@@ -137,11 +137,11 @@
 	.header-navbar {}
 
 	.navbar-list {
-		gap: 0 calc((28 / var(--fs-root) * 1rem));
+		gap: 0 calc((28 / var(--fs-root)) * 1rem);
 	}
 
 	.cta-btn-wrapper {
-		padding: 0 calc((3 / var(--fs-root) * 1rem)) 0 0;
+		padding: 0 calc((3 / var(--fs-root)) * 1rem) 0 0;
 	}
 
 }
@@ -149,10 +149,10 @@
 @media screen and (min-width: 1440px) {
 	.header-navbar {
 		display: block;
-		margin: 0 0 0 calc((89 / var(--fs-root) * 1rem));
+		margin: 0 0 0 calc((89 / var(--fs-root)) * 1rem);
 	}
 
 	.navbar-list {
-		gap: 0 calc((40 / var(--fs-root) * 1rem));
+		gap: 0 calc((40 / var(--fs-root)) * 1rem);
 	}
 }
