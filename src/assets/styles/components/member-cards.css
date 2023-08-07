@@ -1,0 +1,62 @@
+.member-card {
+	width: calc((131 / var(--fs-root)) * 1rem);
+	height: calc((206 / var(--fs-root)) * 1rem);
+}
+
+.member-avt {
+	width: 100%;
+	height: auto;
+}
+
+.member-name {
+	color: #000;
+	font-family: Satoshi;
+	font-size: calc((14 / var(--fs-root)) * 1rem);
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin: calc((12 / var(--fs-root)) * 1rem) 0 calc((2 / var(--fs-root)) * 1rem);
+}
+
+.member-job {
+	color: #000;
+	font-family: Satoshi;
+	font-size: calc((12 / var(--fs-root)) * 1rem);
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+@media screen and (min-width: 1024px) {
+
+	.member-card {
+		width: calc((180 / var(--fs-root)) * 1rem);
+		height: calc((268 / var(--fs-root)) * 1rem);
+	}
+
+	.member-name {
+		font-size: calc((17 / var(--fs-root)) * 1rem);
+	}
+
+	.member-job {
+		font-size: calc((13 / var(--fs-root)) * 1rem);
+	}
+
+}
+
+@media screen and (min-width: 1440px) {
+
+	.member-card {
+		width: calc((263 / var(--fs-root)) * 1rem);
+		height: calc((387 / var(--fs-root)) * 1rem);
+	}
+
+	.member-name {
+		font-size: calc((24 / var(--fs-root)) * 1rem);
+	}
+
+	.member-job {
+		font-size: calc((14 / var(--fs-root)) * 1rem);
+	}
+
+}
