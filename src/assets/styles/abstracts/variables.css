@@ -1,12 +1,4 @@
 :root {
-
 	--primary-color: #F4F4F4;
 	--secondary-color: #004050;
-
-	--screen-xs: 320px;
-	--screen-md: 768px;
-	--screen-lg: 1024px;
-	--screen-xl: 1200px;
-	--screen-xxl: 1440px;
-
 }
