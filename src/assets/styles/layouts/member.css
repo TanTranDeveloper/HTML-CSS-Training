@@ -1,0 +1,113 @@
+.member {
+	background-color: var(--primary-color);
+	margin: calc((72 / var(--fs-root)) * 1rem) 0 0;
+}
+
+.member-title {
+	color: #000;
+	font-family: Satoshi;
+	font-size: calc((36 / var(--fs-root)) * 1rem);
+	font-style: normal;
+	font-weight: 700;
+	line-height: calc((46 / var(--fs-root)) * 1rem);
+	letter-spacing: calc((-0.5 / var(--fs-root)) * 1rem);
+	padding: calc((72 / var(--fs-root)) * 1rem) 0 calc((48 / var(--fs-root)) * 1rem);
+}
+
+.member-content {
+	display: grid;
+	grid-template-columns: auto auto;
+	border-top: 1px solid #787878;
+	border-bottom: 1px solid #787878;
+	gap: calc((32 / var(--fs-root)) * 1rem) 0;
+	justify-content: space-between;
+	padding: calc((32 / var(--fs-root)) * 1rem) 0 calc((87 / var(--fs-root)) * 1rem);
+}
+
+@media screen and (min-width: 768px) {
+
+	.member-content {
+		display: grid;
+		grid-template-columns: repeat(5, auto);
+		grid-template-areas:
+			"item1 . item2 . item3"
+			"item4 . item5 . item6"
+			". item7 . item8 .";
+	}
+
+	.member-card-1 {
+		grid-area: item1;
+	}
+
+	.member-card-2 {
+		grid-area: item2;
+	}
+
+	.member-card-3 {
+		grid-area: item3;
+	}
+
+	.member-card-4 {
+		grid-area: item4;
+	}
+
+	.member-card-5 {
+		grid-area: item5;
+	}
+
+	.member-card-6 {
+		grid-area: item6;
+	}
+
+	.member-card-7 {
+		grid-area: item7;
+	}
+
+	.member-card-8 {
+		grid-area: item8;
+	}
+
+}
+
+@media screen and (min-width: 1024px) {
+
+	.member-title {
+		color: #000;
+		font-family: Satoshi;
+		font-size: calc((64 / var(--fs-root)) * 1rem);
+		font-style: normal;
+		font-weight: 700;
+		line-height: calc((74 / var(--fs-root)) * 1rem);
+		letter-spacing: calc((1 / var(--fs-root)) * 1rem);
+		width: calc((458 / var(--fs-root)) * 1rem);
+		margin: 0 0 calc((72 / var(--fs-root) * 1rem));
+	}
+
+	.member-content {
+		grid-template-areas: none;
+		grid-template-columns: repeat(4, auto);
+		padding: calc((48 / var(--fs-root)) * 1rem) 0 calc((180 / var(--fs-root)) * 1rem);
+		gap: calc((34 / var(--fs-root)) * 1rem) 0;
+	}
+
+	.member-card {
+		grid-area: unset;
+	}
+
+	.member {
+		margin: calc((170 / var(--fs-root)) * 1rem) 0 0;
+	}
+
+	.member-title {
+		padding: calc((120 / var(--fs-root)) * 1rem) 0 0;
+	}
+
+}
+
+@media screen and (min-width: 1440px) {
+
+	.member-content {
+		gap: calc((48 / var(--fs-root)) * 1rem) 0;
+	}
+
+}
