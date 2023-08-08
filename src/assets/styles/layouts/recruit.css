@@ -23,11 +23,8 @@
 }
 
 .recruit-btn {
-	display: flex;
-	align-items: center;
 	padding: 0;
 	color: #000;
-	text-align: center;
 	font-family: Satoshi;
 	font-size: calc((20 / var(--fs-root)) * 1rem);
 	font-style: normal;
@@ -48,6 +45,7 @@
 	background: url(/src/assets/images/buttons/green-arr-btn.svg);
 	width: calc((24 / var(--fs-root)) * 1rem);
 	height: calc((24 / var(--fs-root)) * 1rem);
+	float: right;
 }
 
 @media screen and (min-width: 1024px) {
