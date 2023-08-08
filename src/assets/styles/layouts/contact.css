@@ -98,6 +98,7 @@
 	.contact {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
+		padding-bottom: calc((88 / var(--fs-root)) * 1rem);
 	}
 
 	.contact-content-wrapper {
