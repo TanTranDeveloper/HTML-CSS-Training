@@ -1,0 +1,94 @@
+.access {
+	display: flex;
+	flex-direction: column;
+	gap: calc((32 / var(--fs-root)) * 1rem) 0;
+}
+
+.access-content {
+	margin: calc((72 / var(--fs-root)) * 1rem) 0 calc((16 / var(--fs-root)) * 1rem);
+}
+
+.access-logo {
+	display: inline-block;
+	width: calc((106 / var(--fs-root)) * 1rem);
+	height: calc((22 / var(--fs-root)) * 1rem);
+}
+
+.logo-img {
+	width: 100%;
+	height: auto;
+}
+
+.access-title {
+	color: #404040;
+	font-family: Satoshi;
+	font-size: calc((14 / var(--fs-root)) *1rem);
+	font-style: normal;
+	font-weight: 400;
+	line-height: calc((24 / var(--fs-root)) * 1rem);
+	margin: calc((24 / var(--fs-root)) * 1rem) 0;
+	width: calc((263 / var(--fs-root)) * 1rem);
+}
+
+.media-list {
+	display: flex;
+	gap: calc((16 / var(--fs-root)) * 1rem);
+}
+
+.media-item {
+	display: inline-block;
+	width: calc((24 / var(--fs-root)) * 1rem);
+	height: calc((24 / var(--fs-root)) * 1rem);
+	cursor: pointer;
+}
+
+.media__item:active {
+	opacity: 0.7;
+}
+
+.media__img {
+	width: 100%;
+	height: auto;
+}
+
+.access-subtitle {
+	color: #000;
+	font-family: Satoshi;
+	font-size: calc((16 / var(--fs-root)) * 1rem);
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.access-link {
+	text-decoration: none;
+	color: #000;
+	font-family: Satoshi;
+	font-size: calc((14 / var(--fs-root)) * 1rem);
+	font-style: normal;
+	font-weight: 400;
+	line-height: calc((34 / var(--fs-root)) * 1rem);
+	cursor: pointer;
+}
+
+.access-link:hover {
+	color: blue;
+}
+
+.access-link:active {
+	opacity: 0.7;
+}
+
+@media screen and (min-width: 1024px) {
+
+	.access {
+		flex-direction: row;
+		justify-content: space-between;
+		padding-top: calc((120 / var(--fs-root)) * 1rem);
+	}
+
+	.access-content {
+		margin: 0;
+	}
+
+}
