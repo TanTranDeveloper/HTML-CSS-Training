@@ -4,7 +4,6 @@
 - Project **"Practice-two"**: build a basic and responsive *"Yoora website"* design - using HTML5, CSS3, Flexbox, Grid CSS
     - Link design: [FIGMA](https://www.figma.com/file/vxpGwXCoCTOmemQ77z9UYB/Yoora-CMS?node-id=0%3A1249&mode=dev)
     - Plan: [Doc](https://docs.google.com/document/d/1EtsarpUqRwnx5gujNYU-hZQ6i0gjgQa_L1ERaKSKwyI/edit)
-    - Deploy: [Link](https://practice-two-seven.vercel.app/)
 - Time-line:
 	- Estimate: 4 days (July 28, 2023 - August 2, 2023)
 	- Actual: 9 days (July 28, 2023 - August 8, 2023)

@@ -1,4 +1,7 @@
 :root {
 	--primary-color: #F4F4F4;
 	--secondary-color: #004050;
+
+	/*define root font-size*/
+	--fs-root: 12;
 }
