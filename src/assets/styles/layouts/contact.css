@@ -1,0 +1,171 @@
+.contact {
+	background-color: var(--secondary-color);
+	padding-bottom: calc((50 / var(--fs-root)) * 1rem);
+}
+
+.contact-content-wrapper {
+	padding: calc((72 / var(--fs-root)) * 1rem) 0 0;
+}
+
+.contact-content {
+	margin: 0 0 calc((32 / var(--fs-root)) * 1rem);
+	border-bottom: 1px solid #fff;
+}
+
+.contact-title {
+	width: calc((262 / var(--fs-root)) * 1rem);
+	color: #FFF;
+	font-family: Satoshi;
+	font-size: calc((36 / var(--fs-root)) * 1rem);
+	font-style: normal;
+	font-weight: 700;
+	line-height: calc((46 / var(--fs-root)) * 1rem);
+	letter-spacing: calc((0.5 / var(--fs-root)) * 1rem);
+}
+
+.contact-description {
+	margin: calc((16 / var(--fs-root)) * 1rem) 0 calc((48 / var(--fs-root)) * 1rem);
+	color: #FFF;
+	font-family: Satoshi;
+	font-size: calc((16 / var(--fs-root)) * 1rem);
+	font-style: normal;
+	font-weight: 500;
+	line-height: calc((26 / var(--fs-root)) * 1rem);
+	opacity: 0.7;
+}
+
+.contact-access {
+	display: grid;
+	grid-template-columns: auto;
+	align-items: center;
+	justify-content: center;
+}
+
+.contact-btn {
+	width: calc((272 / var(--fs-root)) * 1rem);
+	border: none;
+	border-radius: 8px;
+	background: #FFF;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	padding: calc((21 / var(--fs-root)) * 1rem) 0 calc((19 / var(--fs-root)) * 1rem) calc((65 / var(--fs-root)) * 1rem);
+	/*text*/
+	color: #000;
+	font-family: Satoshi;
+	font-size: calc((18 / var(--fs-root)) * 1rem);
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: calc((0.5 / var(--fs-root)) * 1rem);
+	gap: calc((27 / var(--fs-root)) * 1rem);
+	cursor: pointer;
+	margin: 0 0 calc((48 / var(--fs-root)) * 1rem);
+}
+
+.btn-arrow {
+	background: url(/src/assets/images/buttons/contact-arrow.svg);
+	width: calc((24 / var(--fs-root)) * 1rem);
+	height: calc((24 / var(--fs-root)) * 1rem);
+	float: right;
+}
+
+.contact-link {
+	color: #FFF;
+	font-family: Satoshi;
+	font-size: calc((18 / var(--fs-root)) * 1rem);
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: calc((0.1 / var(--fs-root)) * 1rem);
+	text-align: center;
+	margin: 0 0 calc((61 / var(--fs-root)) * 1rem);
+}
+
+.contact-design {
+	width: calc((230 / var(--fs-root)) * 1rem);
+	height: calc((279 / var(--fs-root)) * 1rem);
+}
+
+.contact-img {
+	border-radius: calc((10 / var(--fs-root)) * 1rem);
+	width: 100%;
+	height: auto;
+}
+
+@media screen and (min-width: 1024px) {
+
+	.contact {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.contact-content-wrapper {
+		padding: calc((120 / var(--fs-root)) * 1rem) 0 0;
+	}
+
+	.contact-title {
+		font-size: calc((45 / var(--fs-root)) * 1rem);
+		line-height: calc((52 / var(--fs-root)) * 1rem);
+		letter-spacing: calc((1 / var(--fs-root)) * 1rem);
+		width: 100%;
+	}
+
+	.contact-description {
+		margin: calc((32 / var(--fs-root)) * 1rem) 0 calc((64 / var(--fs-root)) * 1rem);
+		font-size: calc((18 / var(--fs-root)) * 1rem);
+		line-height: calc((28 / var(--fs-root)) * 1rem);
+		letter-spacing: calc((0.2 / var(--fs-root)) * 1rem);
+		width: calc((423 / var(--fs-root)) * 1rem);
+	}
+
+	.contact-access {
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		gap: 0 calc((34 / var(--fs-root)) * 1rem);
+	}
+
+	.contact-content {
+		margin: 0 0 calc((48 / var(--fs-root)) * 1rem);
+	}
+
+	.contact-btn {
+		width: calc((198 / var(--fs-root)) * 1rem);
+		padding: calc((21 / var(--fs-root)) * 1rem) 0 calc((19 / var(--fs-root)) * 1rem) calc((32 / var(--fs-root)) * 1rem);
+	}
+
+	.contact-link {
+		margin-top: calc((12 / var(--fs-root)) * 1rem);
+	}
+
+	.contact-design {
+		width: calc((325 / var(--fs-root)) * 1rem);
+		height: calc((394 / var(--fs-root)) * 1rem);
+		margin: calc((120 / var(--fs-root)) * 1rem) 0 0 calc((80 / var(--fs-root)) * 1rem);
+	}
+
+}
+
+@media screen and (min-width: 1200px) {
+
+	.contact-title {
+		font-size: calc((64 / var(--fs-root)) * 1rem);
+		line-height: calc((74 / var(--fs-root)) * 1rem);
+	}
+
+	.contact-design {
+		width: calc((457 / var(--fs-root)) * 1rem);
+		height: calc((554 / var(--fs-root)) * 1rem);
+		margin: calc((120 / var(--fs-root)) * 1rem) 0 0 calc((113 / var(--fs-root)) * 1rem);
+	}
+
+}
+
+@media screen and (min-width: 1440px) {
+
+	.contact-access {
+		gap: 0 calc((48 / var(--fs-root)) * 1rem);
+	}
+
+}
