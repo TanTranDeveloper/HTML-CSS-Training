@@ -1,7 +1,7 @@
 .footer--content-wrapper {
 	border-top: 1px solid #787878;
 	margin: calc((48 / var(--fs-root)) * 1rem) 0 0;
-	padding: calc((25 / var(--fs-root)) * 1rem) 0 0;
+	padding: calc((25 / var(--fs-root)) * 1rem) 0 calc((26 / var(--fs-root)) * 1rem);
 }
 
 .footer-content {
@@ -69,7 +69,7 @@
 		justify-content: space-between;
 		align-items: center;
 		margin: calc((100 / var(--fs-root)) * 1rem) 0 0;
-		padding: calc((44 / var(--fs-root)) * 1rem) 0 0;
+		padding: calc((44 / var(--fs-root)) * 1rem) 0 calc((41 / var(--fs-root)) * 1rem);
 
 	}
 
