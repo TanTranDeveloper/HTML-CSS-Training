@@ -1,7 +1,7 @@
 /*gap: 32px 0*/
 .access {
-	display: flex;
-	flex-direction: column;
+	display: grid;
+	grid-template-columns: 1fr;
 	gap: calc((32 / var(--fs-root)) * 1rem) 0;
 }
 
@@ -68,7 +68,6 @@
 	line-height: normal;
 }
 
-
 /*font-size: 14px*/
 /*line-height: 34px*/
 .access-link {
@@ -96,12 +95,25 @@
 	.access {
 		padding-top: calc((120 / var(--fs-root)) * 1rem);
 		display: grid;
-		grid-template-columns: minmax(auto, 390px) repeat(4, auto);
+		grid-template-columns: minmax(auto, calc((390 / var(--fs-root)) * 1rem)) repeat(4, auto);
+		/* grid-template-columns: minmax(auto, calc((263 / var(--fs-root)) * 1rem)) repeat(4, auto); */
+	}
+
+	/*padding-right: 127px*/
+	.access-title {
+		padding: 0 calc((127 / var(--fs-root)) * 1rem) 0 0;
+	}
+
+
+	/*padding-left: 20px*/
+	.access-navigation {
+		padding: 0 0 0 calc((20 / var(--fs-root)) * 1rem);
 	}
 
 	/*margin: 0 127px 0 0*/
 	.access-content {
-		margin: 0 calc((127 / var(--fs-root)) * 1rem) 0 0;
+		/* margin: 0 calc((127 / var(--fs-root)) * 1rem) 0 0; */
+		margin: 0;
 	}
 
 }
