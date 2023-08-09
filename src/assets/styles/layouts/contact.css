@@ -13,7 +13,6 @@
 }
 
 .contact-title {
-	width: calc((262 / var(--fs-root)) * 1rem);
 	color: #FFF;
 	font-family: Satoshi;
 	font-size: calc((36 / var(--fs-root)) * 1rem);
@@ -42,14 +41,13 @@
 }
 
 .contact-btn {
-	width: calc((272 / var(--fs-root)) * 1rem);
 	border: none;
-	border-radius: 8px;
+	border-radius: calc((8 / var(--fs-root)) * 1rem);
 	background: #FFF;
 	display: flex;
 	text-align: center;
 	align-items: center;
-	padding: calc((21 / var(--fs-root)) * 1rem) 0 calc((19 / var(--fs-root)) * 1rem) calc((65 / var(--fs-root)) * 1rem);
+	padding: calc((21 / var(--fs-root)) * 1rem) calc((63 / var(--fs-root)) * 1rem) calc((19 / var(--fs-root)) * 1rem);
 	/*text*/
 	color: #000;
 	font-family: Satoshi;
@@ -82,15 +80,29 @@
 	margin: 0 0 calc((61 / var(--fs-root)) * 1rem);
 }
 
+/*padding-right: 44px*/
 .contact-design {
-	width: calc((230 / var(--fs-root)) * 1rem);
-	height: calc((279 / var(--fs-root)) * 1rem);
+	min-width: calc((230 / var(--fs-root)) * 1rem);
+	min-height: calc((279 / var(--fs-root)) * 1rem);
+	padding: 0 calc((44 / var(--fs-root)) * 1rem) 0 0;
 }
 
 .contact-img {
 	border-radius: calc((10 / var(--fs-root)) * 1rem);
 	width: 100%;
 	height: auto;
+}
+
+@media screen and (min-width: 768px) {
+
+	.contact-title {
+		text-align: center;
+	}
+
+	.contact-description {
+		text-align: center;
+	}
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -101,6 +113,12 @@
 		padding-bottom: calc((88 / var(--fs-root)) * 1rem);
 	}
 
+	/*padding: 21px 24px 19px 32px*/
+	.contact-btn {
+		padding: calc((21 / var(--fs-root)) * 1rem) calc((24 / var(--fs-root)) * 1rem) calc((19 / var(--fs-root)) * 1rem) calc((32 / var(--fs-root)) * 1rem);
+	}
+
+	/*padding-top: 120px*/
 	.contact-content-wrapper {
 		padding: calc((120 / var(--fs-root)) * 1rem) 0 0;
 	}
@@ -109,17 +127,24 @@
 		font-size: calc((45 / var(--fs-root)) * 1rem);
 		line-height: calc((52 / var(--fs-root)) * 1rem);
 		letter-spacing: calc((1 / var(--fs-root)) * 1rem);
-		width: 100%;
+		text-align: unset;
 	}
 
+	/*margin: 32px 0 64px*/
+	/*font-size: 18px*/
+	/*line-height: 28px*/
+	/*lett-spacing: 0.2px*/
+	/*padding-right: 143px*/
 	.contact-description {
 		margin: calc((32 / var(--fs-root)) * 1rem) 0 calc((64 / var(--fs-root)) * 1rem);
 		font-size: calc((18 / var(--fs-root)) * 1rem);
 		line-height: calc((28 / var(--fs-root)) * 1rem);
 		letter-spacing: calc((0.2 / var(--fs-root)) * 1rem);
-		width: calc((423 / var(--fs-root)) * 1rem);
+		padding: 0 calc((143 / var(--fs-root)) * 1rem) 0 0;
+		text-align: unset;
 	}
 
+	/*gap: 0 34px*/
 	.contact-access {
 		display: flex;
 		justify-content: flex-start;
@@ -127,22 +152,22 @@
 		gap: 0 calc((34 / var(--fs-root)) * 1rem);
 	}
 
+
+	/*margin-bottom: 48px*/
 	.contact-content {
 		margin: 0 0 calc((48 / var(--fs-root)) * 1rem);
 	}
 
-	.contact-btn {
-		width: calc((198 / var(--fs-root)) * 1rem);
-		padding: calc((21 / var(--fs-root)) * 1rem) 0 calc((19 / var(--fs-root)) * 1rem) calc((32 / var(--fs-root)) * 1rem);
-	}
-
+	/*margin-bottom: 49px*/
 	.contact-link {
-		margin-top: calc((12 / var(--fs-root)) * 1rem);
+		margin: 0 0 calc((49 / var(--fs-root)) * 1rem);
 	}
 
+	/*min-width: 324px - min-height: 393px*/
+	/*margin: 120px 0 0 80px*/
 	.contact-design {
-		width: calc((325 / var(--fs-root)) * 1rem);
-		height: calc((394 / var(--fs-root)) * 1rem);
+		min-width: calc((324 / var(--fs-root)) * 1rem);
+		min-height: calc((393 / var(--fs-root)) * 1rem);
 		margin: calc((120 / var(--fs-root)) * 1rem) 0 0 calc((80 / var(--fs-root)) * 1rem);
 	}
 
@@ -150,21 +175,27 @@
 
 @media screen and (min-width: 1200px) {
 
+	/*font-size: 64px*/
+	/*line-height: 74px*/
 	.contact-title {
 		font-size: calc((64 / var(--fs-root)) * 1rem);
 		line-height: calc((74 / var(--fs-root)) * 1rem);
 	}
 
+	/*min-width: 457px - min-height: 554px*/
+	/*margin: 120px 0 0 113px*/
 	.contact-design {
-		width: calc((457 / var(--fs-root)) * 1rem);
-		height: calc((554 / var(--fs-root)) * 1rem);
+		min-width: calc((457 / var(--fs-root)) * 1rem);
+		min-height: calc((554 / var(--fs-root)) * 1rem);
 		margin: calc((120 / var(--fs-root)) * 1rem) 0 0 calc((113 / var(--fs-root)) * 1rem);
+		padding: 0;
 	}
 
 }
 
 @media screen and (min-width: 1440px) {
 
+	/*gap: 0 48px*/
 	.contact-access {
 		gap: 0 calc((48 / var(--fs-root)) * 1rem);
 	}
