@@ -40,10 +40,10 @@
 		|- images/
 			|-- ...
 		|- styles/
-			|- abstracts/
 			|- base/
 			|- components/
 			|- layouts/
+			|-- utils/
 			|- main.css
 	|- partials/
 		|- ...
