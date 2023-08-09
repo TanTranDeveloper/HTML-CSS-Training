@@ -38,12 +38,12 @@
 		|- fonts/
 			|- ...
 		|- images/
-			|-- ...
+			|- ...
 		|- styles/
 			|- base/
 			|- components/
 			|- layouts/
-			|-- utils/
+			|- utils/
 			|- main.css
 	|- partials/
 		|- ...
