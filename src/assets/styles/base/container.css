@@ -6,18 +6,14 @@
 
 
 @media screen and (min-width: 1024px) {
-
 	.container {
 		padding: 0 150px;
 	}
-
 }
 
 @media screen and (min-width: 1440px) {
-
 	.container {
-		max-width: 1140px;
+		width: 1140px;
 		padding: 0;
 	}
-
 }
