@@ -6,16 +6,16 @@
 
 @media screen and (min-width: 768px) {
 	:root {
-		--fs-root: 13;
+		--fs-root: 13px;
 	}
 }
 
 @media screen and (min-width: 1024px) {
 	:root {
-		--fs-root: 14;
+		--fs-root: 14px;
 	}
 }
 
 html {
-	font-size: calc(var(--fs-root) * 1px);
+	font-size: var(--fs-root);
 }
