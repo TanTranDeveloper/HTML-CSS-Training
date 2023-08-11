@@ -11,7 +11,7 @@
 .hero-title {
 	padding: 0 1rem 0 0;
 	color: var(--black);
-	font-family: Satoshi;
+	font-family: var(--satoshi);
 	font-size: 3rem;
 	font-style: normal;
 	font-weight: 700;
@@ -29,7 +29,7 @@
 /*margin-bottom: 48px*/
 .hero-description {
 	color: var(--black);
-	font-family: Satoshi;
+	font-family: var(--satoshi);
 	font-size: 1.333rem;
 	font-style: normal;
 	font-weight: 400;
@@ -49,7 +49,6 @@
 }
 
 @media screen and (min-width: 1024px) {
-
 	/*margin: 101px 0 95px*/
 	/*grid-template-column: minmax(auto, 652px) auto*/
 	.hero-content {
@@ -81,5 +80,4 @@
 	.hero-image-wrapper {
 		margin: 0 -10.714rem;
 	}
-
 }
