@@ -4,4 +4,11 @@
 
 	/*define root font-size*/
 	--fs-root: 12px;
+
+	/*define color*/
+	--black: #000;
+	--white: #FFF;
+	--pearl-white: #F4F4F4;
+	--grey: #787878;
+	--dark-blue: blue;
 }
