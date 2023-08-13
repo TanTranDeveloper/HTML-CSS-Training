@@ -18,4 +18,5 @@
 
 html {
 	font-size: var(--fs-root);
+	font-family: var(--satoshi);
 }
