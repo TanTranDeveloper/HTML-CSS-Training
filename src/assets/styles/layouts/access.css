@@ -1,20 +1,17 @@
-/*gap: 32px 0*/
-.access {
+.access-content-wrapper {
 	display: grid;
 	grid-template-columns: 1fr;
-	gap: calc((32 / var(--fs-root)) * 1rem) 0;
+	gap: 32px 0;
 }
 
-/*margin: 72px 0 16px*/
 .access-content {
-	margin: calc((72 / var(--fs-root)) * 1rem) 0 calc((16 / var(--fs-root)) * 1rem);
+	margin: 72px 0 16px;
 }
 
-/*width: 106px - height: 22px*/
 .access-logo {
 	display: inline-block;
-	width: calc((106 / var(--fs-root)) * 1rem);
-	height: calc((22 / var(--fs-root)) * 1rem);
+	width: 106px;
+	height: 22px;
 }
 
 .logo-img {
@@ -22,30 +19,24 @@
 	height: auto;
 }
 
-/*font-size: 14px*/
-/*line-height: 24px*/
-/*margin: 24px 0*/
 .access-title {
 	color: #404040;
-	font-family: Satoshi;
-	font-size: calc((14 / var(--fs-root)) *1rem);
+	font-size: 14px;
 	font-style: normal;
 	font-weight: 400;
-	line-height: calc((24 / var(--fs-root)) * 1rem);
-	margin: calc((24 / var(--fs-root)) * 1rem) 0;
+	line-height: 24px;
+	margin: 24px 0;
 }
 
-/*gap: 0 16px*/
 .media-list {
 	display: flex;
-	gap: 0 calc((16 / var(--fs-root)) * 1rem);
+	gap: 0 16px;
 }
 
-/*width: 24px - height: 24px*/
 .media-item {
 	display: inline-block;
-	width: calc((24 / var(--fs-root)) * 1rem);
-	height: calc((24 / var(--fs-root)) * 1rem);
+	width: 24px;
+	height: 24px;
 	cursor: pointer;
 }
 
@@ -58,26 +49,21 @@
 	height: auto;
 }
 
-/*font-size: 16px*/
 .access-subtitle {
-	color: #000;
-	font-family: Satoshi;
-	font-size: calc((16 / var(--fs-root)) * 1rem);
+	color: var(--black);
+	font-size: 16px;
 	font-style: normal;
 	font-weight: 700;
 	line-height: normal;
 }
 
-/*font-size: 14px*/
-/*line-height: 34px*/
 .access-link {
 	text-decoration: none;
-	color: #000;
-	font-family: Satoshi;
-	font-size: calc((14 / var(--fs-root)) * 1rem);
+	color: var(--black);
+	font-size: 14px;
 	font-style: normal;
 	font-weight: 400;
-	line-height: calc((34 / var(--fs-root)) * 1rem);
+	line-height: 34px;
 	cursor: pointer;
 }
 
@@ -91,29 +77,23 @@
 
 @media screen and (min-width: 1024px) {
 
-	/*padding-top: 120px*/
-	.access {
-		padding-top: calc((120 / var(--fs-root)) * 1rem);
+
+	.access-content-wrapper {
+		padding: 120px 0 100px;
 		display: grid;
-		grid-template-columns: minmax(auto, calc((390 / var(--fs-root)) * 1rem)) repeat(4, auto);
-		/* grid-template-columns: minmax(auto, calc((263 / var(--fs-root)) * 1rem)) repeat(4, auto); */
+		grid-template-columns: minmax(auto, 390px) repeat(4, auto);
 	}
 
-	/*padding-right: 127px*/
 	.access-title {
-		padding: 0 calc((127 / var(--fs-root)) * 1rem) 0 0;
+		padding: 0 127px 0 0;
 	}
 
 
-	/*padding-left: 20px*/
 	.access-navigation {
-		padding: 0 0 0 calc((20 / var(--fs-root)) * 1rem);
+		padding: 0 0 0 20px;
 	}
 
-	/*margin: 0 127px 0 0*/
 	.access-content {
-		/* margin: 0 calc((127 / var(--fs-root)) * 1rem) 0 0; */
 		margin: 0;
 	}
-
 }
