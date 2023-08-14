@@ -1,36 +1,46 @@
+/*margin-top: 50px*/
 .hero-content {
-	margin: calc((50 / var(--fs-root)) * 1rem) 0 0;
+	margin: 4.167rem 0 0;
 }
 
+/*padding-right: 12px*/
+/*font-size: 36px*/
+/*line-height: 46px*/
+/*letter-spacing: 0.5px*/
+/*margin-bottom: 16px*/
 .hero-title {
 	padding: 0 1rem 0 0;
-	color: #000;
-	font-family: Satoshi;
-	font-size: calc((36 / var(--fs-root)) * 1rem);
+	color: var(--black);
+	font-family: var(--satoshi);
+	font-size: 3rem;
 	font-style: normal;
 	font-weight: 700;
-	line-height: calc((46 / var(--fs-root)) * 1rem);
-	letter-spacing: calc((0.5 / var(--fs-root))* 1rem);
-	margin: 0 0 calc((16 / var(--fs-root)) * 1rem);
+	line-height: 3.833rem;
+	letter-spacing: 0.042rem;
+	margin: 0 0 1.333rem;
 }
 
-.hero-title .hero-title-custom {
-	color: #787878;
+.hero-title-custom {
+	color: var(--grey);
 }
 
+/*font-szie: 16px*/
+/*line-height: 26px*/
+/*margin-bottom: 48px*/
 .hero-description {
-	color: #000;
-	font-family: Satoshi;
-	font-size: calc((16 / var(--fs-root)) * 1rem);
+	color: var(--black);
+	font-family: var(--satoshi);
+	font-size: 1.333rem;
 	font-style: normal;
 	font-weight: 400;
-	line-height: calc((26 / var(--fs-root)) * 1rem);
-	margin: 0 0 calc((46 / var(--fs-root))* 1rem);
+	line-height: 2.167rem;
+	margin: 0 0 4rem;
 }
 
+/*margin: 0 -24px*/
 .hero-image-wrapper {
 	display: block;
-	margin: 0 calc((-24 / var(--fs-root))* 1rem);
+	margin: 0 -2rem;
 }
 
 .hero-image {
@@ -39,27 +49,35 @@
 }
 
 @media screen and (min-width: 1024px) {
-
+	/*margin: 101px 0 95px*/
+	/*grid-template-column: minmax(auto, 652px) auto*/
 	.hero-content {
+		margin: 7.214rem 0 6.786rem;
 		display: grid;
-		grid-template-columns: minmax(auto, calc((652 / var(--fs-root))* 1rem)) auto;
-		margin: calc((101 / var(--fs-root))* 1rem) 0 calc((95 / var(--fs-root))* 1rem);
+		grid-template-columns: minmax(auto, 46.571rem) auto;
+		align-items: end;
 	}
 
+	/*font-size: 64px*/
+	/*line-height: 74px*/
 	.hero-title {
-		font-size: calc((64 / var(--fs-root))* 1rem);
-		line-height: calc((74 / var(--fs-root))* 1rem);
+		font-size: 4.571rem;
+		line-height: 5.286rem;
 		margin: 0;
 	}
 
+	/*font-size: 18px*/
+	/*line-height: 28px*/
+	/*padding: 0 0 5px 31px*/
 	.hero-description {
-		font-size: calc((18 / var(--fs-root)) * 1rem);
-		line-height: calc((28 / var(--fs-root))* 1rem);
+		font-size: 1.286rem;
+		line-height: 2rem;
 		margin: 0;
-		padding: calc((132 / var(--fs-root)) * 1rem) 0 0 calc((31 / var(--fs-root)) * 1rem);
+		padding: 0 0 0.357rem 2.214rem;
 	}
 
+	/*margin: 0 -150px*/
 	.hero-image-wrapper {
-		margin: 0 calc((-150 / var(--fs-root))* 1rem);
+		margin: 0 -10.714rem;
 	}
 }

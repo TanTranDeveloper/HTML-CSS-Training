@@ -1,50 +1,47 @@
 .introduce-content {
-	padding: calc((34 / var(--fs-root)) * 1rem) 0 calc((80 / var(--fs-root)) * 1rem);
-	margin: calc((46 / var(--fs-root)) * 1rem) 0 0;
-	border-top: 1px solid #787878;
-	border-bottom: 1px solid #787878;
+	padding: 2.833rem 0 6.667rem;
+	margin: 3.833rem 0 0;
+	border-top: 0.083rem solid var(--grey);
+	border-bottom: 0.083rem solid var(--grey);
 }
 
 .introduce-title {
-	color: #000;
-	font-family: Satoshi;
-	font-size: calc((36 / var(--fs-root)) * 1rem);
+	color: var(--black);
+	font-size: 3rem;
 	font-style: normal;
 	font-weight: 700;
-	line-height: calc((46 / var(--fs-root)) * 1rem);
-	letter-spacing: calc((0.5 / var(--fs-root)) * 1rem);
-	margin: 0 0 calc((24 / var(--fs-root)) * 1rem);
+	line-height: 3.833rem;
+	letter-spacing: 0.042rem;
+	margin: 0 0 2rem;
 }
 
 .introduce-subtitle {
-	color: #000;
-	font-family: Satoshi;
-	font-size: calc((20 / var(--fs-root)) * 1rem);
+	color: var(--black);
+	font-size: 1.667rem;
 	font-style: normal;
 	font-weight: 500;
-	line-height: calc((30 / var(--fs-root)) * 1rem);
-	margin: 0 0 calc((22 / var(--fs-root)) * 1rem);
+	line-height: 2.5rem;
+	margin: 0 0 2rem;
 }
 
 .introduce-description {
-	color: #000;
-	font-family: Satoshi;
-	font-size: calc((16 / var(--fs-root)) * 1rem);
+	color: var(--black);
+	font-size: 1.333rem;
 	font-style: normal;
 	font-weight: 400;
-	line-height: calc((26 / var(--fs-root)) * 1rem);
+	line-height: 2.167rem;
+	margin: 0 0 4rem;
 }
 
 .introduce-nametag {
-	padding: calc((48 / var(--fs-root)) * 1rem) 0 0;
 	display: flex;
-	align-items: center;
-	gap: 0 calc((12 / var(--fs-root)) * 1rem);
+	gap: 0 1rem;
+	margin: 0 0 1.917rem;
 }
 
 .nametag-image-wrapper {
-	width: calc((40 / var(--fs-root)) * 1rem);
-	height: calc((40 / var(--fs-root)) * 1rem);
+	width: 3.333rem;
+	height: 3.333rem;
 }
 
 .nametag-image {
@@ -53,16 +50,14 @@
 }
 
 .nametag-item {
-	color: #000;
-	font-family: Satoshi;
-	font-size: calc((14 / var(--fs-root)) * 1rem);
+	color: var(--black);
+	font-size: 1.167rem;
 	font-style: normal;
 	line-height: normal;
 }
 
 .nametag-name {
 	font-weight: 700;
-	margin: 0 0 calc((5 / var(--fs-root)) * 1rem);
 }
 
 .nametag-job {
@@ -70,127 +65,119 @@
 }
 
 .introduce-quote {
-	margin: calc((23 / var(--fs-root)) * 1rem) 0 0;
-	color: #000;
-	font-family: Satoshi;
-	font-size: calc((24 / var(--fs-root)) * 1rem);
+	color: var(--black);
+	font-size: 2rem;
 	font-style: normal;
 	font-weight: 500;
-	line-height: calc((34 /var(--fs-root)) * 1rem);
-	letter-spacing: calc((-0.3 / var(--fs-root)) * 1rem);
+	line-height: 2.833rem;
+	letter-spacing: -0.025rem;
 }
 
 .introduce-aside {
-	padding: calc((32 / var(--fs-root)) * 1rem) 0 0;
+	padding: 2.667rem 0 6rem;
 	display: grid;
 	grid-template-columns: 1fr;
-	gap: calc((48 / var(--fs-root)) * 1rem) 0;
+	gap: 4rem 0;
 }
 
 .aside-description {
 	color: #1B2730;
-	font-family: Satoshi;
-	font-size: calc((16 / var(--fs-root)) * 1rem);
+	font-size: 1.333rem;
 	font-style: normal;
 	font-weight: 500;
-	line-height: calc((26 / var(--fs-root)) * 1rem);
-	margin: 0 0 calc((12 / var(--fs-root)) * 1rem);
+	line-height: 2.167rem;
+	margin: 0 0 1rem;
 }
 
 .aside-number {
-	color: #000;
-	font-family: Satoshi;
-	font-size: calc((48 / var(--fs-root)) * 1rem);
+	color: var(--black);
+	font-size: 4rem;
 	font-style: normal;
 	font-weight: 700;
-	line-height: calc((48 / var(--fs-root)) * 1rem);
-	letter-spacing: calc((1 / var(--fs-root)) * 1rem);
+	line-height: 4rem;
+	letter-spacing: 0.083rem;
 }
 
 @media screen and (min-width: 1024px) {
-
 	.introduce-content {
 		display: grid;
-		grid-template-columns: 1fr 1fr;
-		padding: calc((48 / var(--fs-root)) * 1rem) 0 calc((120 / var(--fs-root)) * 1rem);
-		margin: calc((117 / var(--fs-root)) * 1rem) 0 0;
-		border-top: 1px solid #787878;
-		border-bottom: 1px solid #787878;
+		grid-template-columns: repeat(2, 1fr);
+		margin: 8.357rem 0 0;
+		padding: 3.429rem 0 8.571rem;
+		border-top: 0.071rem solid var(--grey);
+		border-bottom: 0.071rem solid var(--grey);
 	}
 
 	.introduce-title {
-		font-size: calc((64 / var(--fs-root)) * 1rem);
-		line-height: calc((74 / var(--fs-root)) * 1rem);
-		padding: 0 10rem 0 0;
+		font-size: 4.571rem;
+		line-height: 5.286rem;
+		padding: 0 8rem 0 0;
 	}
 
 	.introduce-post {
-		padding: calc((10 / var(--fs-root)) * 1rem) 0 0 calc((17 / var(--fs-root)) * 1rem);
+		padding: 0.714rem 0 0 1.214rem;
 	}
 
 	.introduce-subtitle {
-		font-size: calc((24 / var(--fs-root)) * 1rem);
-		line-height: calc((34 / var(--fs-root)) * 1rem);
-		margin: 0 0 calc((36 / var(--fs-root)) * 1rem);
+		font-size: 1.714rem;
+		line-height: 2.429rem;
+		margin: 0 0 2.571rem;
 	}
 
 	.introduce-description {
-		font-size: calc((18 / var(--fs-root)) * 1rem);
-		line-height: calc((28 / var(--fs-root)) * 1rem);
+		font-size: 1.286rem;
+		line-height: 2rem;
+		margin: 0 0 5.143rem;
 	}
 
 	.introduce-nametag {
-		padding: calc((85 / var(--fs-root)) * 1rem) 0 0;
-		align-items: flex-start;
-		gap: 0 calc((16 / var(--fs-root)) * 1rem);
+		padding: 0.929rem 0 0;
 	}
 
 	.nametag-image-wrapper {
-		width: calc((48 / var(--fs-root)) * 1rem);
-		height: calc((48 / var(--fs-root)) * 1rem);
+		width: 3.429rem;
+		height: 3.429rem;
 	}
 
 	.nametag-name {
-		font-size: calc((16 / var(--fs-root)) * 1rem);
+		font-size: 1.143rem;
 	}
 
 	.introduce-quote {
-		font-size: calc((48 / var(--fs-root)) * 1rem);
-		line-height: calc((58 / var(--fs-root)) * 1rem);
-		padding: calc((48 / var(--fs-root)) * 1rem) 0 0 calc((21 / var(--fs-root)) * 1rem);
+		font-size: 3.429rem;
+		line-height: 4.143rem;
+		padding: 0 0 0 1.214rem;
 	}
 
 	.introduce-aside {
-		display: flex;
-		padding: calc((48 / var(--fs-root)) * 1rem) 0 0;
-		gap: 0 calc((70 / var(--fs-root)) * 1rem);
+		grid-template-columns: repeat(3, minmax(auto, 20.857rem));
+		padding: 3.429rem 0 12.143rem;
+		gap: 0 5rem;
 	}
 
 	.aside-description {
-		font-size: calc((12.8 / var(--fs-root)) * 1rem);
-		line-height: calc((28 / var(--fs-root)) * 1rem);
-		margin: 0 0 calc((8 / var(--fs-root)) * 1rem);
+		font-size: 0.929rem;
+		line-height: 2rem;
+		margin: 0 0 0.571rem;
 	}
 
 	.aside-number {
-		font-size: calc((68 / var(--fs-root)) * 1rem);
+		font-size: 5rem;
 		line-height: normal;
-		letter-spacing: calc((-1.3 / var(--fs-root)) * 1rem);
+		letter-spacing: -0.093rem;
 	}
 
 	@media screen and (min-width: 1440px) {
-
 		.introduce-aside {
-			gap: 0 calc((98 / var(--fs-root)) * 1rem);
+			gap: 0 7rem;
 		}
 
 		.aside-description {
-			font-size: calc((18 / var(--fs-root)) * 1rem);
+			font-size: 1.286rem;
 		}
 
 		.aside-number {
-			font-size: calc((96 / var(--fs-root)) * 1rem);
+			font-size: 6.857rem;
 		}
 	}
-
 }
