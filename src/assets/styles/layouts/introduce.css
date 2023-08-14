@@ -74,7 +74,7 @@
 }
 
 .introduce-aside {
-	padding: 2.667rem 0 0;
+	padding: 2.667rem 0 6rem;
 	display: grid;
 	grid-template-columns: 1fr;
 	gap: 4rem 0;
