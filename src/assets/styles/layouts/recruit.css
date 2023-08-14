@@ -1,39 +1,35 @@
 .recruit {
-	margin: calc((33 / var(--fs-root)) * 1rem) 0 calc((70 / var(--fs-root)) * 1rem);
+	margin: 2.75rem 0 5.833rem;
 }
 
 .recruit-title {
-	color: #000;
-	font-family: Satoshi;
-	font-size: calc((36 / var(--fs-root)) * 1rem);
+	color: var(--black);
+	font-size: 3rem;
 	font-style: normal;
 	font-weight: 700;
-	line-height: calc((46 / var(--fs-root)) * 1rem);
-	letter-spacing: calc((0.5 / var(--fs-root)) * 1rem);
+	line-height: 3.833rem;
+	letter-spacing: 0.042rem;
 }
 
 .recruit-description {
 	color: #1B2730;
-	font-family: Satoshi;
-	font-size: calc((16 / var(--fs-root)) *1rem);
+	font-size: 1.333rem;
 	font-style: normal;
 	font-weight: 500;
-	line-height: calc((26 / var(--fs-root)) * 1rem);
-	margin: calc((16 / var(--fs-root)) * 1rem) 0 calc((24 / var(--fs-root)) * 1rem);
+	line-height: 2.167rem;
+	margin: 1.333rem 0 2rem;
 }
 
 .recruit-btn {
 	padding: 0;
-	color: #000;
-	font-family: Satoshi;
-	font-size: calc((20 / var(--fs-root)) * 1rem);
+	color: var(--black);
+	font-size: 1.667rem;
 	font-style: normal;
 	font-weight: 500;
 	line-height: normal;
-	letter-spacing: calc((0.7 / var(--fs-root)) * 1rem);
+	letter-spacing: 0.058rem;
 	background: none;
 	border: none;
-	position: relative;
 	cursor: pointer;
 }
 
@@ -43,36 +39,38 @@
 
 .recruit-btn-green {
 	background: url(/src/assets/images/buttons/green-arr-btn.svg);
-	width: calc((24 / var(--fs-root)) * 1rem);
-	height: calc((24 / var(--fs-root)) * 1rem);
+	width: 2rem;
+	height: 2rem;
 	float: right;
 }
 
 @media screen and (min-width: 1024px) {
 
 	.recruit {
-		margin: calc((70 / var(--fs-root)) * 1rem) 0 calc((118 / var(--fs-root)) * 1rem);
+		margin: 3.5rem 0 8.429rem;
+	}
+
+	.recruit-content {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 	}
 
 	.recruit-title {
-		font-size: calc((45 / var(--fs-root)) * 1rem);
+		margin: 1.214rem 0 0;
+		font-size: 4.571rem;
 	}
 
-	.recruit-content {
-		margin: calc((-21 / var(--fs-root)) * 1rem) 0 0 calc((16 / var(--fs-root)) * 1rem);
+	.recruit-access {
+		margin: 0 0 0 0.929rem;
 	}
 
 	.recruit-description {
-		font-size: calc((18 / var(--fs-root)) * 1rem);
-		line-height: calc((28 / var(--fs-root)) * 1rem);
-		margin: 0 0 calc((31 / var(--fs-root)) * 1rem);
+		font-size: 1.286rem;
+		line-height: 2rem;
+		margin: 0 0 2.286rem;
 	}
-}
 
-@media screen and (min-width: 1200px) {
-	.recruit-title {
-		font-size: calc((64 / var(--fs-root)) * 1rem);
+	.recruit-btn {
+		font-size: 1.429rem;
 	}
 }
